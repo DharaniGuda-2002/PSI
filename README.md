@@ -18,7 +18,7 @@ This document explains the dataset used in this repository, how it is transforme
 ### Output (`papers_filtered.csv`)
 
 - Rows: **3,148**
-- Columns: **14**
+- Columns: **9**
 
 ### Columns removed from raw data
 
@@ -50,8 +50,6 @@ This document explains the dataset used in this repository, how it is transforme
 
 ## Final Schema (`papers_filtered.csv`)
 
-### Base columns retained from raw
-
 | Column | Type (pandas) | Description |
 |---|---|---|
 | `title` | `object` | Paper title. |
@@ -60,19 +58,9 @@ This document explains the dataset used in this repository, how it is transforme
 | `DOI` | `object` | DOI identifier. |
 | `year` | `int64` | Publication year. |
 | `topics` | `object` | Topic labels (string). |
-
-### Engineered columns
-
-| Column | Type (pandas) | Description |
-|---|---|---|
 | `co_author` | `object` | All authors except the first author, as a semicolon-separated string. |
 | `nc_authors` | `object` | Authors from `authors` matched to entries in `nc_state_people` using normalized name/unity-id heuristics. |
 | `unity_ids` | `object` | Unity IDs parsed from `nc_state_people`, semicolon-separated. |
-| `count_nc_state_people` | `int64` | Number of NC State entries parsed from `nc_state_people`. |
-| `count_nc_authors` | `int64` | Number of matched NC authors in `nc_authors`. |
-| `count_unity_ids` | `int64` | Number of parsed unity IDs in `unity_ids`. |
-| `has_invalid_nc_state_people_format` | `bool` | `True` if any `nc_state_people` entry is not in valid `Name (unityid)` format. |
-| `counts_match` | `bool` | `True` when the three counts above are equal. |
 
 ## What Was Dropped
 
@@ -92,8 +80,6 @@ This document explains the dataset used in this repository, how it is transforme
 ## Known Data Notes for Future Contributors
 
 - `co_author` can be null if only one author is present. In the final file, `co_author` has **65** null rows.
-- Rows with invalid `nc_state_people` format are intentionally retained and flagged with `has_invalid_nc_state_people_format = True` for manual review/audit.
-- `counts_match` is a reliability signal for author/unity-id reconciliation.
 
 ## Reproducing the Output
 
