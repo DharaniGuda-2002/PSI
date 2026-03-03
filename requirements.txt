@@ -1,3 +1,7 @@
 pandas
 ipykernel
 jupyter
+neo4j
+matplotlib
+seaborn
+numpy
