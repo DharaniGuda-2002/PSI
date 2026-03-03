@@ -1,90 +1,102 @@
-# PSI Data Documentation
+# PSI Graph Metrics
 
-This document explains the dataset used in this repository, how it is transformed, and what the final schema means.
+This repository currently documents the graph metrics computed for the NC State co-authorship network.
 
-## Files
+## Scope (Important)
 
-- `Papers.csv`: Original raw dataset.
-- `pre_processing.ipynb`: Notebook that performs cleaning and feature engineering.
-- `papers_filtered.csv`: Final processed dataset used downstream.
+- Data sent to Neo4j includes **only NC State people** (from `nc_state_people` after parsing/cleaning).
+- `Author` nodes and `CO_AUTHORED` edges are created only for those NC State authors.
+- All metrics in `centrality.csv` are therefore computed **only for NC State authors**, not for all authors in the raw source.
 
-## Dataset Summary
+## How To Run Neo4j Connector
 
-### Input (`Papers.csv`)
+Script: `neo4j_connector.py`
 
-- Rows: **3,221**
-- Columns: **10**
+### 1) Set Neo4j connection variables
 
-### Output (`papers_filtered.csv`)
+```bash
+export NEO4J_URI='bolt://localhost:7687'
+export NEO4J_USER='neo4j'
+export NEO4J_PASS='your-neo4j-password'
+export NEO4J_DB='psi'
+export CLEAR_DB_ON_START='true'
+```
 
-- Rows: **3,148**
-- Columns: **9**
+Password note:
+- Do not hardcode credentials in code.
+- Keep password in `NEO4J_PASS` environment variable (or local `.env` that is gitignored).
 
-### Columns removed from raw data
+### 2) Run the connector
 
-- `Unnamed: 0`
-- `PMID`
-- `url`
-- `abstract`
+```bash
+python3 neo4j_connector.py
+```
 
-### Row reduction summary
+What it does:
+- Reads `papers_filtered.csv`
+- Parses only NC State authors from `nc_state_people`
+- Loads `Author`, `Paper`, `Topic` nodes and relationships
+- Builds weighted `CO_AUTHORED` relationships (`weight` = number of shared papers)
 
-- Rows dropped due to missing values in required fields: **62**
-- Additional rows dropped by quality checks (NC authors not found in authors section): **11**
-- Total rows dropped: **73**
+## Metrics Output
 
-## Original Schema (`Papers.csv`)
+- Source file: `centrality.csv`
+- Rows (authors): **1708**
+- Columns:
+  - `Name`
+  - `degree`
+  - `weightedDegree`
+  - `betweenness`
+  - `closeness`
+  - `eigenvector`
+  - `community`
 
-| Column | Type (pandas) | Description |
-|---|---|---|
-| `Unnamed: 0` | `int64` | Row index-like column from prior export. |
-| `title` | `object` | Paper title. |
-| `authors` | `object` | Semicolon-separated author list (raw string). |
-| `nc_state_people` | `object` | Semicolon-separated NC State entries, expected format like `Name (unityid)`. |
-| `DOI` | `object` | DOI identifier. |
-| `PMID` | `float64` | PubMed ID when available. |
-| `year` | `int64` | Publication year. |
-| `url` | `object` | Source/OpenAlex URL. |
-| `topics` | `object` | Topic labels (string). |
-| `abstract` | `object` | Paper abstract text. |
+## Network Snapshot
 
-## Final Schema (`papers_filtered.csv`)
+- Distinct communities: **33**
+- Largest community (`community = 185`): **213 authors**
+- Isolated authors (`degree = 0`): **4**
+- Authors with repeated collaborations (`weightedDegree > degree`): **880**
 
-| Column | Type (pandas) | Description |
-|---|---|---|
-| `title` | `object` | Paper title. |
-| `authors` | `object` | Original semicolon-separated author list. |
-| `nc_state_people` | `object` | Original NC State person entries. |
-| `DOI` | `object` | DOI identifier. |
-| `year` | `int64` | Publication year. |
-| `topics` | `object` | Topic labels (string). |
-| `co_author` | `object` | All authors except the first author, as a semicolon-separated string. |
-| `nc_authors` | `object` | Authors from `authors` matched to entries in `nc_state_people` using normalized name/unity-id heuristics. |
-| `unity_ids` | `object` | Unity IDs parsed from `nc_state_people`, semicolon-separated. |
+## Top Authors by Metric
 
-## What Was Dropped
+### Degree
+1. Michael Daniele — 131
+2. Jacob Jones — 108
+3. David Jordan — 108
+4. Alper Bozkurt — 106
+5. Edgar Lobaton — 93
 
-### Columns dropped from raw
+### Weighted Degree
+1. David Jordan — 433
+2. Michael Daniele — 340
+3. Alper Bozkurt — 332
+4. Jacob Jones — 321
+5. Katherine Jennings — 220
 
-- `Unnamed: 0` (index artifact)
-- `PMID` (sparse/not needed in current pipeline)
-- `url` (not required for this stage)
-- `abstract` (large free-text field not used in this stage)
+### Betweenness
+1. Edgar Lobaton — 173769.0632
+2. Michael Kudenov — 146615.4560
+3. Jacob Jones — 144676.0562
+4. Michael Daniele — 124807.3613
+5. Cranos Williams — 118729.8107
 
-### Rows dropped from raw
+### Eigenvector
+1. Cranos Williams — 0.247258
+2. Jack Wang — 0.230940
+3. Vincent L Chiang — 0.224446
+4. Ron Sederoff — 0.215104
+5. Chenmin Yang — 0.203376
 
-- **62 rows** dropped due to nulls in required base columns (`authors` or `topics`).
-- **11 rows** dropped due to count mismatch in otherwise valid-format `nc_state_people` rows.
-- Total dropped from raw to final: **73 rows**.
+## Notes
 
-## Known Data Notes for Future Contributors
+- `weightedDegree` uses `CO_AUTHORED.weight` (number of joint papers) when projected correctly in GDS.
+- Some `closeness = 1.0` values can happen in very small components; compare closeness within similar component sizes.
 
-- `co_author` can be null if only one author is present. In the final file, `co_author` has **65** null rows.
+## Detailed Documentation
 
-## Reproducing the Output
-
-1. Open `pre_processing.ipynb`.
-2. Run all cells in order.
-3. Confirm the notebook saves `papers_filtered.csv`.
-
-The notebook is the source of truth for transformation logic.
+See `METRICS_GUIDE.md` for:
+- what each metric means,
+- how to run these metrics in Neo4j GDS,
+- why each metric is useful,
+- and which algorithm family each GDS metric is based on.
