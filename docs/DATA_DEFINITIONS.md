@@ -82,7 +82,3 @@ The preprocessing notebook currently:
 - parses NC State entries into author names and Unity IDs,
 - performs quality checks on parsed NC State information,
 - and writes the cleaned output to `papers_filtered.csv`.
-
-## Important Scope Note
-
-The downstream Neo4j loading and metric analysis in this repository currently rely on the NC State-related information derived from `nc_state_people`.
