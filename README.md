@@ -1,102 +1,43 @@
-# PSI Graph Metrics
+# PSI Research Collaboration Mapping
 
-This repository currently documents the graph metrics computed for the NC State co-authorship network.
+This repository supports a proof-of-concept analysis of interdisciplinary research activity connected to the N.C. Plant Sciences Institute (PSI).
 
-## Scope (Important)
+The broader goal is to understand how PSI-affiliated NCSU researchers collaborate across topics, where interdisciplinary strength already exists, and which areas may represent future opportunities for growth. In the current repo, that work is represented through publication preprocessing, Neo4j graph loading, and network metric analysis built from PSI-related publication data.
 
-- Data sent to Neo4j includes **only NC State people** (from `nc_state_people` after parsing/cleaning).
-- `Author` nodes and `CO_AUTHORED` edges are created only for those NC State authors.
-- All metrics in `centrality.csv` are therefore computed **only for NC State authors**, not for all authors in the raw source.
+## Project Focus
 
-## How To Run Neo4j Connector
+This repo currently helps us:
 
-Script: `neo4j_connector.py`
+- clean and standardize PSI publication records,
+- identify NC State-affiliated researchers from publication metadata,
+- load the publication network into Neo4j,
+- build an NC State co-authorship graph,
+- and analyze collaboration structure using graph metrics.
 
-### 1) Set Neo4j connection variables
+## Repository Workflow
 
-```bash
-export NEO4J_URI='bolt://localhost:7687'
-export NEO4J_USER='neo4j'
-export NEO4J_PASS='your-neo4j-password'
-export NEO4J_DB='psi'
-export CLEAR_DB_ON_START='true'
-```
+1. Start with the raw publication export in `Papers.csv`.
+2. Run `pre_processing.ipynb` to clean the data and produce `papers_filtered.csv`.
+3. Run `neo4j_connector.py` to load the processed data into Neo4j.
+4. Use the exported network metrics in `centrality.csv` and explore them in `nc_metrics.ipynb`.
 
-Password note:
-- Do not hardcode credentials in code.
-- Keep password in `NEO4J_PASS` environment variable (or local `.env` that is gitignored).
+## Documentation
 
-### 2) Run the connector
+- [Data Definitions](/Users/dharani/Desktop/PSI/DATA_DEFINITIONS.md)
+- [Neo4j Workflow](/Users/dharani/Desktop/PSI/NEO4J_GUIDE.md)
+- [Metrics Results](/Users/dharani/Desktop/PSI/METRICS_GUIDE.md)
 
-```bash
-python3 neo4j_connector.py
-```
+## Main Files
 
-What it does:
-- Reads `papers_filtered.csv`
-- Parses only NC State authors from `nc_state_people`
-- Loads `Author`, `Paper`, `Topic` nodes and relationships
-- Builds weighted `CO_AUTHORED` relationships (`weight` = number of shared papers)
-
-## Metrics Output
-
-- Source file: `centrality.csv`
-- Rows (authors): **1708**
-- Columns:
-  - `Name`
-  - `degree`
-  - `weightedDegree`
-  - `betweenness`
-  - `closeness`
-  - `eigenvector`
-  - `community`
-
-## Network Snapshot
-
-- Distinct communities: **33**
-- Largest community (`community = 185`): **213 authors**
-- Isolated authors (`degree = 0`): **4**
-- Authors with repeated collaborations (`weightedDegree > degree`): **880**
-
-## Top Authors by Metric
-
-### Degree
-1. Michael Daniele — 131
-2. Jacob Jones — 108
-3. David Jordan — 108
-4. Alper Bozkurt — 106
-5. Edgar Lobaton — 93
-
-### Weighted Degree
-1. David Jordan — 433
-2. Michael Daniele — 340
-3. Alper Bozkurt — 332
-4. Jacob Jones — 321
-5. Katherine Jennings — 220
-
-### Betweenness
-1. Edgar Lobaton — 173769.0632
-2. Michael Kudenov — 146615.4560
-3. Jacob Jones — 144676.0562
-4. Michael Daniele — 124807.3613
-5. Cranos Williams — 118729.8107
-
-### Eigenvector
-1. Cranos Williams — 0.247258
-2. Jack Wang — 0.230940
-3. Vincent L Chiang — 0.224446
-4. Ron Sederoff — 0.215104
-5. Chenmin Yang — 0.203376
+- `Papers.csv`: raw publication dataset.
+- `papers_filtered.csv`: cleaned dataset used downstream.
+- `pre_processing.ipynb`: preprocessing and validation notebook.
+- `neo4j_connector.py`: Neo4j loading script.
+- `centrality.csv`: exported graph metrics for NC State authors.
+- `nc_metrics.ipynb`: notebook for metric exploration and plotting.
 
 ## Notes
 
-- `weightedDegree` uses `CO_AUTHORED.weight` (number of joint papers) when projected correctly in GDS.
-- Some `closeness = 1.0` values can happen in very small components; compare closeness within similar component sizes.
-
-## Detailed Documentation
-
-See `METRICS_GUIDE.md` for:
-- what each metric means,
-- how to run these metrics in Neo4j GDS,
-- why each metric is useful,
-- and which algorithm family each GDS metric is based on.
+- The current graph loading workflow uses NC State people parsed from `nc_state_people`.
+- The current `centrality.csv` output reflects NC State authors in the co-authorship network.
+- Future work may expand the analysis to compare NC and non-NC collaborators, temporal slices, topic diversity, and broader interdisciplinarity measures.
