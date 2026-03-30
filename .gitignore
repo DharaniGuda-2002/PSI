@@ -26,3 +26,8 @@ venv/
 # Editor
 .vscode/
 .idea/
+
+# Secrets / local config
+.env
+.env.local
+.env.*.local

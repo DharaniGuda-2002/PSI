@@ -1,90 +1,43 @@
-# PSI Data Documentation
+# PSI Research Collaboration Mapping
 
-This document explains the dataset used in this repository, how it is transformed, and what the final schema means.
+This repository supports a proof-of-concept analysis of interdisciplinary research activity connected to the N.C. Plant Sciences Institute (PSI).
 
-## Files
+The broader goal is to understand how PSI-affiliated NCSU researchers collaborate across topics, where interdisciplinary strength already exists, and which areas may represent future opportunities for growth. In the current repo, that work is represented through publication preprocessing, Neo4j graph loading, and network metric analysis built from PSI-related publication data.
 
-- `Papers.csv`: Original raw dataset.
-- `pre_processing.ipynb`: Notebook that performs cleaning and feature engineering.
-- `papers_filtered.csv`: Final processed dataset used downstream.
+## Project Focus
 
-## Dataset Summary
+This repo currently helps us:
 
-### Input (`Papers.csv`)
+- clean and standardize PSI publication records,
+- identify NC State-affiliated researchers from publication metadata,
+- load the publication network into Neo4j,
+- build an NC State co-authorship graph,
+- and analyze collaboration structure using graph metrics.
 
-- Rows: **3,221**
-- Columns: **10**
+## Repository Workflow
 
-### Output (`papers_filtered.csv`)
+1. Start with the raw publication export in `Papers.csv`.
+2. Run `pre_processing.ipynb` to clean the data and produce `papers_filtered.csv`.
+3. Run `neo4j_connector.py` to load the processed data into Neo4j.
+4. Use the exported network metrics in `centrality.csv` and explore them in `nc_metrics.ipynb`.
 
-- Rows: **3,148**
-- Columns: **9**
+## Documentation
 
-### Columns removed from raw data
+- [Data Definitions](/Users/dharani/Desktop/PSI/DATA_DEFINITIONS.md)
+- [Neo4j Workflow](/Users/dharani/Desktop/PSI/NEO4J_GUIDE.md)
+- [Metrics Results](/Users/dharani/Desktop/PSI/METRICS_GUIDE.md)
 
-- `Unnamed: 0`
-- `PMID`
-- `url`
-- `abstract`
+## Main Files
 
-### Row reduction summary
+- `Papers.csv`: raw publication dataset.
+- `papers_filtered.csv`: cleaned dataset used downstream.
+- `pre_processing.ipynb`: preprocessing and validation notebook.
+- `neo4j_connector.py`: Neo4j loading script.
+- `centrality.csv`: exported graph metrics for NC State authors.
+- `nc_metrics.ipynb`: notebook for metric exploration and plotting.
 
-- Rows dropped due to missing values in required fields: **62**
-- Additional rows dropped by quality checks (NC authors not found in authors section): **11**
-- Total rows dropped: **73**
+## Notes
 
-## Original Schema (`Papers.csv`)
-
-| Column | Type (pandas) | Description |
-|---|---|---|
-| `Unnamed: 0` | `int64` | Row index-like column from prior export. |
-| `title` | `object` | Paper title. |
-| `authors` | `object` | Semicolon-separated author list (raw string). |
-| `nc_state_people` | `object` | Semicolon-separated NC State entries, expected format like `Name (unityid)`. |
-| `DOI` | `object` | DOI identifier. |
-| `PMID` | `float64` | PubMed ID when available. |
-| `year` | `int64` | Publication year. |
-| `url` | `object` | Source/OpenAlex URL. |
-| `topics` | `object` | Topic labels (string). |
-| `abstract` | `object` | Paper abstract text. |
-
-## Final Schema (`papers_filtered.csv`)
-
-| Column | Type (pandas) | Description |
-|---|---|---|
-| `title` | `object` | Paper title. |
-| `authors` | `object` | Original semicolon-separated author list. |
-| `nc_state_people` | `object` | Original NC State person entries. |
-| `DOI` | `object` | DOI identifier. |
-| `year` | `int64` | Publication year. |
-| `topics` | `object` | Topic labels (string). |
-| `co_author` | `object` | All authors except the first author, as a semicolon-separated string. |
-| `nc_authors` | `object` | Authors from `authors` matched to entries in `nc_state_people` using normalized name/unity-id heuristics. |
-| `unity_ids` | `object` | Unity IDs parsed from `nc_state_people`, semicolon-separated. |
-
-## What Was Dropped
-
-### Columns dropped from raw
-
-- `Unnamed: 0` (index artifact)
-- `PMID` (sparse/not needed in current pipeline)
-- `url` (not required for this stage)
-- `abstract` (large free-text field not used in this stage)
-
-### Rows dropped from raw
-
-- **62 rows** dropped due to nulls in required base columns (`authors` or `topics`).
-- **11 rows** dropped due to count mismatch in otherwise valid-format `nc_state_people` rows.
-- Total dropped from raw to final: **73 rows**.
-
-## Known Data Notes for Future Contributors
-
-- `co_author` can be null if only one author is present. In the final file, `co_author` has **65** null rows.
-
-## Reproducing the Output
-
-1. Open `pre_processing.ipynb`.
-2. Run all cells in order.
-3. Confirm the notebook saves `papers_filtered.csv`.
-
-The notebook is the source of truth for transformation logic.
+- The current graph loading workflow uses NC State people parsed from `nc_state_people`.
+- The current `centrality.csv` output reflects NC State authors in the co-authorship network.
+- Future work may expand the analysis to compare NC and non-NC collaborators, temporal slices, topic diversity, and broader interdisciplinarity measures.
