@@ -1,0 +1,2766 @@
+community,number_of_topics,topic,topic_count
+814,68,modeling,458
+814,68,Ecology,435
+814,68,conservation,435
+814,68,sustainable ag,435
+814,68,community,431
+814,68,soil,429
+814,68,policy,423
+814,68,regenerative ag,417
+814,68,genomics,416
+814,68,science communication,416
+814,68,sensing,413
+814,68,Genetics,409
+814,68,fungi,409
+814,68,microbes,409
+814,68,Agtech,405
+814,68,CRISPR,398
+814,68,precision ag,398
+814,68,imaging,396
+814,68,breeding,390
+814,68,pathology,390
+814,68,automation,388
+814,68,proteomics,372
+814,68,CPS,363
+814,68,digital ag,363
+814,68,extension,363
+814,68,sensors,363
+814,68,society,363
+814,68,geospatial,137
+814,68,data analytics,133
+814,68,data science,133
+814,68,decision support,113
+814,68,resource economics,110
+814,68,social sciences,110
+814,68,machine learning,106
+814,68,renewable energy,104
+814,68,carbon capture,102
+814,68,food systems,101
+814,68,risk management,96
+814,68,artificial intelligence,93
+814,68,regulatory science,93
+814,68,disease control,91
+814,68,resilient ag,91
+814,68,outreach,88
+814,68,biotic stress,86
+814,68,food security,85
+814,68,pest mgmt,80
+814,68,nutrient cycle,77
+814,68,plant health,76
+814,68,Ag economics,73
+814,68,synthetic biology,73
+814,68,IoT,71
+814,68,digital twins,71
+814,68,plant improvement,65
+814,68,supply chain,65
+814,68,computer vision,63
+814,68,digital twin,63
+814,68,education,63
+814,68,materials engineering,63
+814,68,robotics,63
+814,68,waste management,60
+814,68,nematodes,57
+814,68,plant signalling,57
+814,68,workforce development,55
+814,68,gene expression,47
+814,68,bioremediation,38
+814,68,labor,38
+814,68,mass spectronomy,38
+814,68,plant-microbe interactions,12
+853,35,Ecology,76
+853,35,Genetics,76
+853,35,conservation,76
+853,35,fungi,76
+853,35,genomics,76
+853,35,microbes,76
+853,35,Agtech,73
+853,35,CPS,73
+853,35,CRISPR,73
+853,35,automation,73
+853,35,breeding,73
+853,35,community,73
+853,35,digital ag,73
+853,35,extension,73
+853,35,imaging,73
+853,35,modeling,73
+853,35,pathology,73
+853,35,policy,73
+853,35,precision ag,73
+853,35,proteomics,73
+853,35,regenerative ag,73
+853,35,science communication,73
+853,35,sensing,73
+853,35,sensors,73
+853,35,society,73
+853,35,soil,73
+853,35,sustainable ag,73
+853,35,biotic stress,3
+853,35,disease control,3
+853,35,gene expression,3
+853,35,pest mgmt,3
+853,35,plant health,3
+853,35,plant improvement,3
+853,35,plant signalling,3
+853,35,plant-microbe interactions,3
+889,67,Agtech,18
+889,67,CPS,18
+889,67,CRISPR,18
+889,67,Ecology,18
+889,67,Genetics,18
+889,67,automation,18
+889,67,breeding,18
+889,67,community,18
+889,67,conservation,18
+889,67,digital ag,18
+889,67,extension,18
+889,67,fungi,18
+889,67,genomics,18
+889,67,imaging,18
+889,67,microbes,18
+889,67,modeling,18
+889,67,pathology,18
+889,67,policy,18
+889,67,precision ag,18
+889,67,proteomics,18
+889,67,regenerative ag,18
+889,67,science communication,18
+889,67,sensing,18
+889,67,sensors,18
+889,67,society,18
+889,67,soil,18
+889,67,sustainable ag,18
+889,67,Ag economics,2
+889,67,IoT,2
+889,67,artificial intelligence,2
+889,67,bioremediation,2
+889,67,biotic stress,2
+889,67,carbon capture,2
+889,67,computer vision,2
+889,67,data analytics,2
+889,67,data science,2
+889,67,decision support,2
+889,67,digital twin,2
+889,67,digital twins,2
+889,67,disease control,2
+889,67,education,2
+889,67,food security,2
+889,67,food systems,2
+889,67,gene expression,2
+889,67,geospatial,2
+889,67,labor,2
+889,67,machine learning,2
+889,67,mass spectronomy,2
+889,67,materials engineering,2
+889,67,nematodes,2
+889,67,nutrient cycle,2
+889,67,outreach,2
+889,67,pest mgmt,2
+889,67,plant health,2
+889,67,plant improvement,2
+889,67,plant signalling,2
+889,67,regulatory science,2
+889,67,renewable energy,2
+889,67,resilient ag,2
+889,67,resource economics,2
+889,67,risk management,2
+889,67,robotics,2
+889,67,social sciences,2
+889,67,supply chain,2
+889,67,synthetic biology,2
+889,67,waste management,2
+889,67,workforce development,2
+1021,68,genomics,620
+1021,68,Ecology,610
+1021,68,Genetics,610
+1021,68,conservation,610
+1021,68,soil,610
+1021,68,Agtech,606
+1021,68,CRISPR,606
+1021,68,community,606
+1021,68,fungi,606
+1021,68,microbes,606
+1021,68,modeling,606
+1021,68,science communication,606
+1021,68,pathology,605
+1021,68,proteomics,605
+1021,68,regenerative ag,605
+1021,68,sensing,605
+1021,68,sustainable ag,603
+1021,68,breeding,602
+1021,68,precision ag,601
+1021,68,automation,598
+1021,68,imaging,598
+1021,68,policy,598
+1021,68,CPS,597
+1021,68,digital ag,597
+1021,68,extension,597
+1021,68,sensors,597
+1021,68,society,597
+1021,68,plant health,65
+1021,68,plant improvement,65
+1021,68,biotic stress,61
+1021,68,nutrient cycle,57
+1021,68,plant signalling,57
+1021,68,gene expression,56
+1021,68,food systems,51
+1021,68,disease control,47
+1021,68,pest mgmt,47
+1021,68,regulatory science,47
+1021,68,renewable energy,47
+1021,68,synthetic biology,47
+1021,68,bioremediation,44
+1021,68,food security,44
+1021,68,nematodes,44
+1021,68,resource economics,44
+1021,68,social sciences,44
+1021,68,data science,43
+1021,68,outreach,43
+1021,68,data analytics,42
+1021,68,carbon capture,40
+1021,68,Ag economics,39
+1021,68,IoT,39
+1021,68,artificial intelligence,39
+1021,68,computer vision,39
+1021,68,decision support,39
+1021,68,digital twin,39
+1021,68,digital twins,39
+1021,68,education,39
+1021,68,geospatial,39
+1021,68,labor,39
+1021,68,machine learning,39
+1021,68,materials engineering,39
+1021,68,resilient ag,39
+1021,68,risk management,39
+1021,68,robotics,39
+1021,68,mass spectronomy,38
+1021,68,supply chain,38
+1021,68,waste management,38
+1021,68,workforce development,38
+1021,68,plant-microbe interactions,16
+1090,27,Agtech,31
+1090,27,CPS,31
+1090,27,CRISPR,31
+1090,27,Ecology,31
+1090,27,Genetics,31
+1090,27,automation,31
+1090,27,breeding,31
+1090,27,community,31
+1090,27,conservation,31
+1090,27,digital ag,31
+1090,27,extension,31
+1090,27,fungi,31
+1090,27,genomics,31
+1090,27,imaging,31
+1090,27,microbes,31
+1090,27,modeling,31
+1090,27,pathology,31
+1090,27,policy,31
+1090,27,precision ag,31
+1090,27,proteomics,31
+1090,27,regenerative ag,31
+1090,27,science communication,31
+1090,27,sensing,31
+1090,27,sensors,31
+1090,27,society,31
+1090,27,soil,31
+1090,27,sustainable ag,31
+1180,45,soil,124
+1180,45,Agtech,120
+1180,45,CRISPR,120
+1180,45,Ecology,120
+1180,45,Genetics,120
+1180,45,breeding,120
+1180,45,community,120
+1180,45,conservation,120
+1180,45,fungi,120
+1180,45,genomics,120
+1180,45,microbes,120
+1180,45,modeling,120
+1180,45,pathology,120
+1180,45,precision ag,120
+1180,45,proteomics,120
+1180,45,regenerative ag,120
+1180,45,science communication,120
+1180,45,sensing,120
+1180,45,sustainable ag,120
+1180,45,CPS,116
+1180,45,automation,116
+1180,45,digital ag,116
+1180,45,extension,116
+1180,45,imaging,116
+1180,45,policy,116
+1180,45,sensors,116
+1180,45,society,116
+1180,45,nutrient cycle,8
+1180,45,bioremediation,4
+1180,45,biotic stress,4
+1180,45,data analytics,4
+1180,45,data science,4
+1180,45,disease control,4
+1180,45,food security,4
+1180,45,food systems,4
+1180,45,gene expression,4
+1180,45,geospatial,4
+1180,45,nematodes,4
+1180,45,outreach,4
+1180,45,plant health,4
+1180,45,regulatory science,4
+1180,45,resource economics,4
+1180,45,social sciences,4
+1180,45,synthetic biology,4
+1180,45,waste management,4
+1354,27,Agtech,34
+1354,27,CPS,34
+1354,27,CRISPR,34
+1354,27,Ecology,34
+1354,27,Genetics,34
+1354,27,automation,34
+1354,27,breeding,34
+1354,27,community,34
+1354,27,conservation,34
+1354,27,digital ag,34
+1354,27,extension,34
+1354,27,fungi,34
+1354,27,genomics,34
+1354,27,imaging,34
+1354,27,microbes,34
+1354,27,modeling,34
+1354,27,pathology,34
+1354,27,policy,34
+1354,27,precision ag,34
+1354,27,proteomics,34
+1354,27,regenerative ag,34
+1354,27,science communication,34
+1354,27,sensing,34
+1354,27,sensors,34
+1354,27,society,34
+1354,27,soil,34
+1354,27,sustainable ag,34
+1480,38,Ecology,253
+1480,38,community,253
+1480,38,conservation,253
+1480,38,modeling,253
+1480,38,policy,253
+1480,38,regenerative ag,253
+1480,38,sustainable ag,253
+1480,38,Agtech,247
+1480,38,CPS,247
+1480,38,CRISPR,247
+1480,38,Genetics,247
+1480,38,automation,247
+1480,38,breeding,247
+1480,38,digital ag,247
+1480,38,extension,247
+1480,38,fungi,247
+1480,38,genomics,247
+1480,38,imaging,247
+1480,38,microbes,247
+1480,38,pathology,247
+1480,38,precision ag,247
+1480,38,proteomics,247
+1480,38,science communication,247
+1480,38,sensing,247
+1480,38,sensors,247
+1480,38,society,247
+1480,38,soil,247
+1480,38,data analytics,6
+1480,38,decision support,6
+1480,38,disease control,6
+1480,38,education,6
+1480,38,food security,6
+1480,38,food systems,6
+1480,38,outreach,6
+1480,38,regulatory science,6
+1480,38,risk management,6
+1480,38,social sciences,6
+1480,38,workforce development,6
+1596,68,genomics,943
+1596,68,Genetics,934
+1596,68,breeding,927
+1596,68,fungi,913
+1596,68,modeling,913
+1596,68,soil,912
+1596,68,Ecology,911
+1596,68,microbes,911
+1596,68,CRISPR,910
+1596,68,conservation,909
+1596,68,proteomics,909
+1596,68,sustainable ag,901
+1596,68,Agtech,900
+1596,68,sensing,900
+1596,68,automation,899
+1596,68,community,899
+1596,68,imaging,899
+1596,68,policy,899
+1596,68,precision ag,899
+1596,68,regenerative ag,899
+1596,68,science communication,899
+1596,68,pathology,898
+1596,68,sensors,893
+1596,68,society,893
+1596,68,CPS,892
+1596,68,digital ag,892
+1596,68,extension,892
+1596,68,plant improvement,69
+1596,68,plant health,51
+1596,68,biotic stress,46
+1596,68,disease control,41
+1596,68,pest mgmt,39
+1596,68,regulatory science,36
+1596,68,synthetic biology,35
+1596,68,gene expression,34
+1596,68,plant signalling,34
+1596,68,data science,31
+1596,68,machine learning,30
+1596,68,risk management,27
+1596,68,decision support,26
+1596,68,food security,26
+1596,68,food systems,26
+1596,68,geospatial,26
+1596,68,resource economics,26
+1596,68,social sciences,25
+1596,68,Ag economics,24
+1596,68,computer vision,24
+1596,68,data analytics,24
+1596,68,outreach,24
+1596,68,renewable energy,24
+1596,68,IoT,23
+1596,68,artificial intelligence,23
+1596,68,digital twin,23
+1596,68,digital twins,23
+1596,68,materials engineering,23
+1596,68,carbon capture,22
+1596,68,nematodes,20
+1596,68,nutrient cycle,20
+1596,68,robotics,20
+1596,68,bioremediation,19
+1596,68,education,19
+1596,68,labor,19
+1596,68,mass spectronomy,18
+1596,68,resilient ag,18
+1596,68,waste management,18
+1596,68,supply chain,17
+1596,68,workforce development,17
+1596,68,plant-microbe interactions,6
+1661,27,Agtech,4
+1661,27,CPS,4
+1661,27,CRISPR,4
+1661,27,Ecology,4
+1661,27,Genetics,4
+1661,27,automation,4
+1661,27,breeding,4
+1661,27,community,4
+1661,27,conservation,4
+1661,27,digital ag,4
+1661,27,extension,4
+1661,27,fungi,4
+1661,27,genomics,4
+1661,27,imaging,4
+1661,27,microbes,4
+1661,27,modeling,4
+1661,27,pathology,4
+1661,27,policy,4
+1661,27,precision ag,4
+1661,27,proteomics,4
+1661,27,regenerative ag,4
+1661,27,science communication,4
+1661,27,sensing,4
+1661,27,sensors,4
+1661,27,society,4
+1661,27,soil,4
+1661,27,sustainable ag,4
+2005,68,fungi,414
+2005,68,Agtech,408
+2005,68,CPS,408
+2005,68,CRISPR,408
+2005,68,Ecology,408
+2005,68,Genetics,408
+2005,68,automation,408
+2005,68,breeding,408
+2005,68,community,408
+2005,68,conservation,408
+2005,68,digital ag,408
+2005,68,extension,408
+2005,68,genomics,408
+2005,68,imaging,408
+2005,68,microbes,408
+2005,68,modeling,408
+2005,68,pathology,408
+2005,68,policy,408
+2005,68,precision ag,408
+2005,68,proteomics,408
+2005,68,regenerative ag,408
+2005,68,science communication,408
+2005,68,sensing,408
+2005,68,sensors,408
+2005,68,society,408
+2005,68,soil,408
+2005,68,sustainable ag,408
+2005,68,plant health,55
+2005,68,biotic stress,50
+2005,68,Ag economics,49
+2005,68,IoT,49
+2005,68,artificial intelligence,49
+2005,68,bioremediation,49
+2005,68,carbon capture,49
+2005,68,computer vision,49
+2005,68,data analytics,49
+2005,68,data science,49
+2005,68,decision support,49
+2005,68,digital twin,49
+2005,68,digital twins,49
+2005,68,disease control,49
+2005,68,education,49
+2005,68,food security,49
+2005,68,food systems,49
+2005,68,gene expression,49
+2005,68,geospatial,49
+2005,68,labor,49
+2005,68,machine learning,49
+2005,68,mass spectronomy,49
+2005,68,materials engineering,49
+2005,68,nematodes,49
+2005,68,nutrient cycle,49
+2005,68,outreach,49
+2005,68,pest mgmt,49
+2005,68,plant improvement,49
+2005,68,plant signalling,49
+2005,68,regulatory science,49
+2005,68,renewable energy,49
+2005,68,resilient ag,49
+2005,68,resource economics,49
+2005,68,risk management,49
+2005,68,robotics,49
+2005,68,social sciences,49
+2005,68,supply chain,49
+2005,68,synthetic biology,49
+2005,68,waste management,49
+2005,68,workforce development,49
+2005,68,plant-microbe interactions,1
+2210,67,breeding,475
+2210,67,genomics,468
+2210,67,Genetics,449
+2210,67,CRISPR,373
+2210,67,Agtech,370
+2210,67,modeling,370
+2210,67,proteomics,367
+2210,67,conservation,351
+2210,67,Ecology,345
+2210,67,precision ag,345
+2210,67,soil,340
+2210,67,CPS,339
+2210,67,automation,339
+2210,67,community,339
+2210,67,digital ag,339
+2210,67,extension,339
+2210,67,fungi,339
+2210,67,imaging,339
+2210,67,microbes,339
+2210,67,pathology,339
+2210,67,policy,339
+2210,67,regenerative ag,339
+2210,67,science communication,339
+2210,67,sensing,339
+2210,67,sensors,339
+2210,67,society,339
+2210,67,sustainable ag,339
+2210,67,plant improvement,284
+2210,67,plant health,213
+2210,67,pest mgmt,132
+2210,67,data science,127
+2210,67,machine learning,116
+2210,67,gene expression,102
+2210,67,regulatory science,102
+2210,67,food security,101
+2210,67,data analytics,99
+2210,67,biotic stress,96
+2210,67,plant signalling,96
+2210,67,geospatial,87
+2210,67,decision support,86
+2210,67,food systems,75
+2210,67,artificial intelligence,74
+2210,67,renewable energy,74
+2210,67,Ag economics,68
+2210,67,IoT,68
+2210,67,bioremediation,68
+2210,67,carbon capture,68
+2210,67,computer vision,68
+2210,67,digital twin,68
+2210,67,digital twins,68
+2210,67,disease control,68
+2210,67,education,68
+2210,67,labor,68
+2210,67,mass spectronomy,68
+2210,67,materials engineering,68
+2210,67,nematodes,68
+2210,67,nutrient cycle,68
+2210,67,outreach,68
+2210,67,resilient ag,68
+2210,67,resource economics,68
+2210,67,risk management,68
+2210,67,robotics,68
+2210,67,social sciences,68
+2210,67,supply chain,68
+2210,67,synthetic biology,68
+2210,67,waste management,68
+2210,67,workforce development,68
+2458,67,breeding,660
+2458,67,genomics,660
+2458,67,conservation,651
+2458,67,Genetics,645
+2458,67,Ecology,639
+2458,67,soil,639
+2458,67,proteomics,636
+2458,67,modeling,632
+2458,67,CRISPR,629
+2458,67,community,629
+2458,67,sensing,616
+2458,67,sustainable ag,616
+2458,67,fungi,613
+2458,67,microbes,613
+2458,67,pathology,613
+2458,67,science communication,613
+2458,67,Agtech,590
+2458,67,precision ag,590
+2458,67,imaging,587
+2458,67,policy,587
+2458,67,regenerative ag,587
+2458,67,CPS,583
+2458,67,automation,583
+2458,67,digital ag,583
+2458,67,extension,583
+2458,67,sensors,583
+2458,67,society,583
+2458,67,plant improvement,132
+2458,67,food systems,117
+2458,67,plant health,111
+2458,67,food security,110
+2458,67,biotic stress,108
+2458,67,regulatory science,88
+2458,67,plant signalling,84
+2458,67,synthetic biology,84
+2458,67,renewable energy,82
+2458,67,nutrient cycle,79
+2458,67,social sciences,75
+2458,67,digital twin,72
+2458,67,digital twins,72
+2458,67,disease control,72
+2458,67,nematodes,72
+2458,67,data analytics,65
+2458,67,data science,65
+2458,67,pest mgmt,65
+2458,67,gene expression,61
+2458,67,carbon capture,49
+2458,67,geospatial,49
+2458,67,resource economics,49
+2458,67,IoT,46
+2458,67,bioremediation,46
+2458,67,materials engineering,46
+2458,67,outreach,46
+2458,67,supply chain,46
+2458,67,waste management,46
+2458,67,artificial intelligence,45
+2458,67,computer vision,45
+2458,67,decision support,45
+2458,67,machine learning,45
+2458,67,Ag economics,42
+2458,67,education,42
+2458,67,labor,42
+2458,67,mass spectronomy,42
+2458,67,resilient ag,42
+2458,67,risk management,42
+2458,67,robotics,42
+2458,67,workforce development,42
+2479,68,CRISPR,546
+2479,68,genomics,546
+2479,68,microbes,546
+2479,68,proteomics,546
+2479,68,soil,546
+2479,68,sustainable ag,546
+2479,68,Agtech,541
+2479,68,Ecology,541
+2479,68,Genetics,541
+2479,68,automation,541
+2479,68,imaging,541
+2479,68,modeling,541
+2479,68,pathology,541
+2479,68,precision ag,541
+2479,68,regenerative ag,541
+2479,68,science communication,541
+2479,68,fungi,540
+2479,68,sensing,537
+2479,68,conservation,535
+2479,68,policy,532
+2479,68,breeding,524
+2479,68,community,524
+2479,68,sensors,523
+2479,68,CPS,487
+2479,68,digital ag,487
+2479,68,extension,487
+2479,68,society,487
+2479,68,materials engineering,149
+2479,68,renewable energy,141
+2479,68,food systems,130
+2479,68,carbon capture,128
+2479,68,gene expression,128
+2479,68,disease control,127
+2479,68,plant health,127
+2479,68,regulatory science,127
+2479,68,bioremediation,125
+2479,68,risk management,123
+2479,68,synthetic biology,122
+2479,68,waste management,121
+2479,68,resilient ag,119
+2479,68,data analytics,113
+2479,68,data science,113
+2479,68,biotic stress,111
+2479,68,decision support,110
+2479,68,digital twin,110
+2479,68,food security,109
+2479,68,machine learning,107
+2479,68,social sciences,107
+2479,68,artificial intelligence,104
+2479,68,pest mgmt,102
+2479,68,resource economics,102
+2479,68,computer vision,101
+2479,68,digital twins,101
+2479,68,outreach,101
+2479,68,plant improvement,101
+2479,68,nutrient cycle,99
+2479,68,IoT,98
+2479,68,Ag economics,95
+2479,68,nematodes,89
+2479,68,robotics,89
+2479,68,mass spectronomy,88
+2479,68,geospatial,85
+2479,68,supply chain,84
+2479,68,labor,82
+2479,68,plant signalling,82
+2479,68,education,79
+2479,68,workforce development,74
+2479,68,plant-microbe interactions,5
+2512,27,Agtech,59
+2512,27,CPS,59
+2512,27,CRISPR,59
+2512,27,Ecology,59
+2512,27,Genetics,59
+2512,27,automation,59
+2512,27,breeding,59
+2512,27,community,59
+2512,27,conservation,59
+2512,27,digital ag,59
+2512,27,extension,59
+2512,27,fungi,59
+2512,27,genomics,59
+2512,27,imaging,59
+2512,27,microbes,59
+2512,27,modeling,59
+2512,27,pathology,59
+2512,27,policy,59
+2512,27,precision ag,59
+2512,27,proteomics,59
+2512,27,regenerative ag,59
+2512,27,science communication,59
+2512,27,sensing,59
+2512,27,sensors,59
+2512,27,society,59
+2512,27,soil,59
+2512,27,sustainable ag,59
+2664,68,Ecology,263
+2664,68,conservation,263
+2664,68,fungi,263
+2664,68,microbes,262
+2664,68,soil,262
+2664,68,Genetics,261
+2664,68,breeding,261
+2664,68,genomics,260
+2664,68,sustainable ag,260
+2664,68,community,258
+2664,68,modeling,258
+2664,68,CRISPR,245
+2664,68,policy,245
+2664,68,science communication,245
+2664,68,Agtech,241
+2664,68,automation,239
+2664,68,sensing,239
+2664,68,precision ag,230
+2664,68,imaging,224
+2664,68,pathology,224
+2664,68,proteomics,224
+2664,68,regenerative ag,224
+2664,68,sensors,224
+2664,68,society,223
+2664,68,CPS,221
+2664,68,digital ag,221
+2664,68,extension,221
+2664,68,plant health,66
+2664,68,food security,63
+2664,68,pest mgmt,63
+2664,68,biotic stress,61
+2664,68,disease control,61
+2664,68,food systems,61
+2664,68,nematodes,61
+2664,68,plant improvement,61
+2664,68,regulatory science,58
+2664,68,risk management,57
+2664,68,outreach,56
+2664,68,social sciences,56
+2664,68,resource economics,44
+2664,68,carbon capture,40
+2664,68,data science,39
+2664,68,renewable energy,39
+2664,68,data analytics,37
+2664,68,decision support,37
+2664,68,geospatial,37
+2664,68,synthetic biology,34
+2664,68,Ag economics,33
+2664,68,artificial intelligence,31
+2664,68,machine learning,31
+2664,68,plant signalling,31
+2664,68,bioremediation,24
+2664,68,IoT,22
+2664,68,computer vision,22
+2664,68,digital twin,22
+2664,68,digital twins,22
+2664,68,gene expression,22
+2664,68,materials engineering,22
+2664,68,resilient ag,22
+2664,68,robotics,22
+2664,68,waste management,22
+2664,68,education,21
+2664,68,labor,21
+2664,68,nutrient cycle,21
+2664,68,supply chain,21
+2664,68,workforce development,21
+2664,68,mass spectronomy,19
+2664,68,plant-microbe interactions,2
+2745,27,Agtech,58
+2745,27,CPS,58
+2745,27,CRISPR,58
+2745,27,Ecology,58
+2745,27,Genetics,58
+2745,27,automation,58
+2745,27,breeding,58
+2745,27,community,58
+2745,27,conservation,58
+2745,27,digital ag,58
+2745,27,extension,58
+2745,27,fungi,58
+2745,27,genomics,58
+2745,27,imaging,58
+2745,27,microbes,58
+2745,27,modeling,58
+2745,27,pathology,58
+2745,27,policy,58
+2745,27,precision ag,58
+2745,27,proteomics,58
+2745,27,regenerative ag,58
+2745,27,science communication,58
+2745,27,sensing,58
+2745,27,sensors,58
+2745,27,society,58
+2745,27,soil,58
+2745,27,sustainable ag,58
+2876,67,imaging,719
+2876,67,science communication,694
+2876,67,sensing,672
+2876,67,microbes,655
+2876,67,proteomics,655
+2876,67,regenerative ag,655
+2876,67,genomics,646
+2876,67,pathology,643
+2876,67,modeling,626
+2876,67,Agtech,620
+2876,67,soil,616
+2876,67,Genetics,611
+2876,67,precision ag,611
+2876,67,CRISPR,604
+2876,67,Ecology,575
+2876,67,fungi,571
+2876,67,community,560
+2876,67,automation,556
+2876,67,breeding,556
+2876,67,policy,555
+2876,67,sustainable ag,549
+2876,67,conservation,541
+2876,67,sensors,535
+2876,67,CPS,517
+2876,67,digital ag,517
+2876,67,extension,517
+2876,67,society,517
+2876,67,synthetic biology,185
+2876,67,materials engineering,177
+2876,67,regulatory science,177
+2876,67,carbon capture,102
+2876,67,gene expression,97
+2876,67,renewable energy,85
+2876,67,nutrient cycle,82
+2876,67,plant health,77
+2876,67,digital twin,69
+2876,67,pest mgmt,62
+2876,67,food systems,59
+2876,67,disease control,51
+2876,67,machine learning,48
+2876,67,data science,44
+2876,67,digital twins,44
+2876,67,robotics,42
+2876,67,computer vision,38
+2876,67,biotic stress,36
+2876,67,mass spectronomy,36
+2876,67,IoT,34
+2876,67,nematodes,34
+2876,67,outreach,34
+2876,67,plant signalling,34
+2876,67,resilient ag,32
+2876,67,bioremediation,29
+2876,67,Ag economics,28
+2876,67,decision support,28
+2876,67,social sciences,28
+2876,67,artificial intelligence,22
+2876,67,data analytics,22
+2876,67,education,22
+2876,67,plant improvement,22
+2876,67,resource economics,22
+2876,67,supply chain,22
+2876,67,food security,16
+2876,67,geospatial,16
+2876,67,labor,16
+2876,67,risk management,16
+2876,67,waste management,16
+2876,67,workforce development,16
+3105,67,sensing,221
+3105,67,imaging,220
+3105,67,science communication,217
+3105,67,modeling,211
+3105,67,Agtech,210
+3105,67,conservation,210
+3105,67,Ecology,209
+3105,67,fungi,209
+3105,67,genomics,209
+3105,67,microbes,209
+3105,67,pathology,209
+3105,67,soil,209
+3105,67,precision ag,207
+3105,67,sustainable ag,207
+3105,67,CRISPR,206
+3105,67,Genetics,206
+3105,67,automation,206
+3105,67,breeding,206
+3105,67,community,206
+3105,67,policy,206
+3105,67,proteomics,206
+3105,67,regenerative ag,206
+3105,67,sensors,206
+3105,67,CPS,205
+3105,67,digital ag,205
+3105,67,extension,205
+3105,67,society,205
+3105,67,materials engineering,28
+3105,67,plant signalling,18
+3105,67,computer vision,12
+3105,67,machine learning,11
+3105,67,plant health,11
+3105,67,plant improvement,11
+3105,67,pest mgmt,10
+3105,67,data analytics,9
+3105,67,data science,9
+3105,67,food systems,9
+3105,67,geospatial,9
+3105,67,artificial intelligence,8
+3105,67,food security,8
+3105,67,renewable energy,8
+3105,67,Ag economics,7
+3105,67,IoT,7
+3105,67,biotic stress,7
+3105,67,carbon capture,7
+3105,67,decision support,7
+3105,67,digital twin,7
+3105,67,digital twins,7
+3105,67,disease control,7
+3105,67,gene expression,7
+3105,67,nematodes,7
+3105,67,outreach,7
+3105,67,regulatory science,7
+3105,67,resilient ag,7
+3105,67,resource economics,7
+3105,67,risk management,7
+3105,67,robotics,7
+3105,67,social sciences,7
+3105,67,synthetic biology,7
+3105,67,waste management,7
+3105,67,bioremediation,6
+3105,67,education,6
+3105,67,labor,6
+3105,67,mass spectronomy,6
+3105,67,nutrient cycle,6
+3105,67,supply chain,6
+3105,67,workforce development,6
+3510,39,conservation,19
+3510,39,modeling,19
+3510,39,sensing,19
+3510,39,sustainable ag,19
+3510,39,Agtech,18
+3510,39,CPS,18
+3510,39,CRISPR,18
+3510,39,Ecology,18
+3510,39,Genetics,18
+3510,39,automation,18
+3510,39,breeding,18
+3510,39,community,18
+3510,39,digital ag,18
+3510,39,extension,18
+3510,39,fungi,18
+3510,39,genomics,18
+3510,39,imaging,18
+3510,39,microbes,18
+3510,39,pathology,18
+3510,39,policy,18
+3510,39,precision ag,18
+3510,39,proteomics,18
+3510,39,regenerative ag,18
+3510,39,science communication,18
+3510,39,sensors,18
+3510,39,society,18
+3510,39,soil,18
+3510,39,plant health,2
+3510,39,plant improvement,2
+3510,39,artificial intelligence,1
+3510,39,biotic stress,1
+3510,39,computer vision,1
+3510,39,data analytics,1
+3510,39,data science,1
+3510,39,food security,1
+3510,39,food systems,1
+3510,39,geospatial,1
+3510,39,machine learning,1
+3510,39,renewable energy,1
+3633,68,soil,865
+3633,68,conservation,838
+3633,68,breeding,823
+3633,68,modeling,811
+3633,68,Ecology,807
+3633,68,microbes,805
+3633,68,sustainable ag,805
+3633,68,genomics,804
+3633,68,Agtech,801
+3633,68,Genetics,800
+3633,68,sensing,799
+3633,68,community,798
+3633,68,science communication,794
+3633,68,policy,789
+3633,68,CRISPR,786
+3633,68,precision ag,781
+3633,68,regenerative ag,781
+3633,68,fungi,779
+3633,68,automation,767
+3633,68,pathology,765
+3633,68,proteomics,747
+3633,68,imaging,743
+3633,68,sensors,726
+3633,68,society,725
+3633,68,CPS,704
+3633,68,digital ag,704
+3633,68,extension,704
+3633,68,plant health,210
+3633,68,plant improvement,195
+3633,68,food security,177
+3633,68,nutrient cycle,164
+3633,68,pest mgmt,160
+3633,68,food systems,158
+3633,68,resource economics,148
+3633,68,carbon capture,145
+3633,68,disease control,143
+3633,68,regulatory science,143
+3633,68,biotic stress,142
+3633,68,data science,137
+3633,68,social sciences,133
+3633,68,geospatial,132
+3633,68,renewable energy,130
+3633,68,outreach,129
+3633,68,synthetic biology,125
+3633,68,Ag economics,117
+3633,68,plant signalling,116
+3633,68,risk management,116
+3633,68,nematodes,114
+3633,68,decision support,110
+3633,68,data analytics,106
+3633,68,materials engineering,104
+3633,68,digital twin,98
+3633,68,digital twins,98
+3633,68,bioremediation,97
+3633,68,artificial intelligence,93
+3633,68,gene expression,93
+3633,68,machine learning,93
+3633,68,supply chain,91
+3633,68,waste management,91
+3633,68,IoT,88
+3633,68,education,87
+3633,68,labor,87
+3633,68,resilient ag,84
+3633,68,robotics,73
+3633,68,computer vision,71
+3633,68,mass spectronomy,64
+3633,68,workforce development,52
+3633,68,plant-microbe interactions,11
+3828,68,soil,866
+3828,68,Ecology,830
+3828,68,conservation,828
+3828,68,genomics,825
+3828,68,breeding,816
+3828,68,Genetics,815
+3828,68,modeling,809
+3828,68,community,807
+3828,68,Agtech,798
+3828,68,fungi,777
+3828,68,sustainable ag,777
+3828,68,policy,763
+3828,68,microbes,762
+3828,68,science communication,762
+3828,68,sensing,758
+3828,68,CRISPR,755
+3828,68,regenerative ag,755
+3828,68,automation,753
+3828,68,precision ag,751
+3828,68,pathology,735
+3828,68,sensors,735
+3828,68,imaging,732
+3828,68,proteomics,732
+3828,68,CPS,730
+3828,68,digital ag,730
+3828,68,extension,730
+3828,68,society,730
+3828,68,plant health,318
+3828,68,plant improvement,296
+3828,68,biotic stress,237
+3828,68,food systems,232
+3828,68,pest mgmt,202
+3828,68,data science,197
+3828,68,food security,190
+3828,68,resource economics,188
+3828,68,carbon capture,187
+3828,68,machine learning,187
+3828,68,nutrient cycle,183
+3828,68,plant signalling,177
+3828,68,regulatory science,171
+3828,68,renewable energy,171
+3828,68,social sciences,169
+3828,68,data analytics,168
+3828,68,decision support,167
+3828,68,outreach,167
+3828,68,geospatial,160
+3828,68,disease control,158
+3828,68,risk management,155
+3828,68,waste management,154
+3828,68,synthetic biology,153
+3828,68,supply chain,152
+3828,68,Ag economics,148
+3828,68,IoT,148
+3828,68,digital twin,148
+3828,68,digital twins,148
+3828,68,resilient ag,147
+3828,68,education,145
+3828,68,artificial intelligence,144
+3828,68,nematodes,139
+3828,68,bioremediation,137
+3828,68,materials engineering,135
+3828,68,gene expression,133
+3828,68,robotics,133
+3828,68,computer vision,131
+3828,68,workforce development,130
+3828,68,labor,129
+3828,68,mass spectronomy,129
+3828,68,plant-microbe interactions,6
+3931,67,regenerative ag,166
+3931,67,science communication,166
+3931,67,soil,166
+3931,67,sustainable ag,166
+3931,67,Agtech,160
+3931,67,Ecology,160
+3931,67,Genetics,160
+3931,67,automation,160
+3931,67,conservation,160
+3931,67,fungi,160
+3931,67,genomics,160
+3931,67,microbes,160
+3931,67,modeling,160
+3931,67,pathology,160
+3931,67,proteomics,160
+3931,67,CPS,153
+3931,67,CRISPR,153
+3931,67,breeding,153
+3931,67,community,153
+3931,67,digital ag,153
+3931,67,extension,153
+3931,67,imaging,153
+3931,67,policy,153
+3931,67,precision ag,153
+3931,67,sensing,153
+3931,67,sensors,153
+3931,67,society,153
+3931,67,materials engineering,71
+3931,67,carbon capture,62
+3931,67,renewable energy,62
+3931,67,bioremediation,52
+3931,67,waste management,52
+3931,67,biotic stress,46
+3931,67,decision support,46
+3931,67,disease control,46
+3931,67,food systems,46
+3931,67,gene expression,46
+3931,67,machine learning,46
+3931,67,plant health,46
+3931,67,plant improvement,46
+3931,67,regulatory science,46
+3931,67,risk management,46
+3931,67,social sciences,46
+3931,67,synthetic biology,46
+3931,67,nutrient cycle,45
+3931,67,Ag economics,39
+3931,67,IoT,39
+3931,67,artificial intelligence,39
+3931,67,computer vision,39
+3931,67,data analytics,39
+3931,67,data science,39
+3931,67,digital twin,39
+3931,67,digital twins,39
+3931,67,education,39
+3931,67,food security,39
+3931,67,geospatial,39
+3931,67,labor,39
+3931,67,mass spectronomy,39
+3931,67,nematodes,39
+3931,67,outreach,39
+3931,67,pest mgmt,39
+3931,67,plant signalling,39
+3931,67,resilient ag,39
+3931,67,resource economics,39
+3931,67,robotics,39
+3931,67,supply chain,39
+3931,67,workforce development,39
+4173,67,soil,329
+4173,67,Ecology,316
+4173,67,modeling,311
+4173,67,Genetics,310
+4173,67,community,310
+4173,67,conservation,310
+4173,67,genomics,310
+4173,67,microbes,310
+4173,67,policy,310
+4173,67,regenerative ag,310
+4173,67,science communication,310
+4173,67,sustainable ag,310
+4173,67,Agtech,309
+4173,67,CRISPR,309
+4173,67,automation,309
+4173,67,breeding,309
+4173,67,sensing,309
+4173,67,imaging,304
+4173,67,pathology,304
+4173,67,precision ag,304
+4173,67,fungi,190
+4173,67,CPS,184
+4173,67,digital ag,184
+4173,67,extension,184
+4173,67,proteomics,184
+4173,67,sensors,184
+4173,67,society,184
+4173,67,food systems,154
+4173,67,geospatial,148
+4173,67,biotic stress,147
+4173,67,food security,147
+4173,67,nutrient cycle,147
+4173,67,resource economics,147
+4173,67,data analytics,142
+4173,67,data science,142
+4173,67,artificial intelligence,141
+4173,67,carbon capture,141
+4173,67,decision support,141
+4173,67,disease control,141
+4173,67,machine learning,141
+4173,67,regulatory science,141
+4173,67,renewable energy,141
+4173,67,resilient ag,141
+4173,67,risk management,141
+4173,67,social sciences,141
+4173,67,Ag economics,140
+4173,67,IoT,140
+4173,67,education,140
+4173,67,materials engineering,140
+4173,67,outreach,140
+4173,67,pest mgmt,140
+4173,67,synthetic biology,140
+4173,67,computer vision,135
+4173,67,digital twin,135
+4173,67,digital twins,135
+4173,67,plant health,34
+4173,67,bioremediation,33
+4173,67,waste management,27
+4173,67,plant improvement,20
+4173,67,robotics,20
+4173,67,supply chain,20
+4173,67,gene expression,15
+4173,67,labor,15
+4173,67,mass spectronomy,15
+4173,67,nematodes,15
+4173,67,plant signalling,15
+4173,67,workforce development,15
+5536,68,regenerative ag,2005
+5536,68,proteomics,2000
+5536,68,microbes,1977
+5536,68,CRISPR,1966
+5536,68,science communication,1961
+5536,68,genomics,1954
+5536,68,sensing,1951
+5536,68,Agtech,1945
+5536,68,imaging,1938
+5536,68,pathology,1936
+5536,68,sustainable ag,1931
+5536,68,modeling,1917
+5536,68,automation,1900
+5536,68,fungi,1897
+5536,68,community,1892
+5536,68,soil,1892
+5536,68,Genetics,1891
+5536,68,precision ag,1890
+5536,68,Ecology,1888
+5536,68,conservation,1876
+5536,68,sensors,1858
+5536,68,policy,1849
+5536,68,breeding,1842
+5536,68,society,1831
+5536,68,CPS,1829
+5536,68,digital ag,1829
+5536,68,extension,1829
+5536,68,materials engineering,384
+5536,68,synthetic biology,353
+5536,68,gene expression,300
+5536,68,regulatory science,300
+5536,68,disease control,286
+5536,68,food systems,285
+5536,68,bioremediation,263
+5536,68,plant health,259
+5536,68,resilient ag,249
+5536,68,IoT,247
+5536,68,risk management,247
+5536,68,data science,245
+5536,68,decision support,245
+5536,68,pest mgmt,241
+5536,68,renewable energy,239
+5536,68,data analytics,238
+5536,68,digital twin,238
+5536,68,machine learning,237
+5536,68,artificial intelligence,231
+5536,68,digital twins,230
+5536,68,nematodes,230
+5536,68,carbon capture,228
+5536,68,food security,228
+5536,68,waste management,225
+5536,68,Ag economics,223
+5536,68,computer vision,223
+5536,68,biotic stress,222
+5536,68,robotics,222
+5536,68,social sciences,220
+5536,68,supply chain,220
+5536,68,outreach,219
+5536,68,plant improvement,217
+5536,68,nutrient cycle,214
+5536,68,resource economics,211
+5536,68,labor,210
+5536,68,mass spectronomy,208
+5536,68,plant signalling,208
+5536,68,geospatial,205
+5536,68,education,201
+5536,68,workforce development,199
+5536,68,plant-microbe interactions,1
+5649,68,genomics,379
+5649,68,fungi,355
+5649,68,Genetics,354
+5649,68,proteomics,354
+5649,68,science communication,354
+5649,68,Ecology,352
+5649,68,microbes,352
+5649,68,modeling,352
+5649,68,soil,352
+5649,68,CRISPR,351
+5649,68,breeding,351
+5649,68,regenerative ag,351
+5649,68,Agtech,346
+5649,68,conservation,346
+5649,68,community,345
+5649,68,policy,345
+5649,68,sustainable ag,345
+5649,68,pathology,323
+5649,68,sensing,323
+5649,68,imaging,317
+5649,68,automation,316
+5649,68,precision ag,316
+5649,68,CPS,299
+5649,68,digital ag,299
+5649,68,extension,299
+5649,68,sensors,299
+5649,68,society,299
+5649,68,data science,102
+5649,68,geospatial,96
+5649,68,plant health,82
+5649,68,plant improvement,82
+5649,68,biotic stress,81
+5649,68,regulatory science,81
+5649,68,synthetic biology,81
+5649,68,pest mgmt,79
+5649,68,data analytics,78
+5649,68,disease control,78
+5649,68,food systems,78
+5649,68,renewable energy,78
+5649,68,Ag economics,72
+5649,68,carbon capture,72
+5649,68,decision support,72
+5649,68,digital twin,72
+5649,68,digital twins,72
+5649,68,education,72
+5649,68,food security,72
+5649,68,outreach,72
+5649,68,resilient ag,72
+5649,68,social sciences,72
+5649,68,workforce development,55
+5649,68,gene expression,52
+5649,68,nutrient cycle,52
+5649,68,plant signalling,52
+5649,68,computer vision,44
+5649,68,machine learning,44
+5649,68,IoT,43
+5649,68,artificial intelligence,43
+5649,68,labor,43
+5649,68,materials engineering,43
+5649,68,nematodes,43
+5649,68,resource economics,43
+5649,68,risk management,43
+5649,68,robotics,43
+5649,68,bioremediation,26
+5649,68,mass spectronomy,26
+5649,68,supply chain,26
+5649,68,waste management,26
+5649,68,plant-microbe interactions,17
+5947,67,regenerative ag,492
+5947,67,imaging,480
+5947,67,sensing,480
+5947,67,pathology,477
+5947,67,Agtech,476
+5947,67,CRISPR,476
+5947,67,Ecology,476
+5947,67,automation,476
+5947,67,community,476
+5947,67,fungi,476
+5947,67,genomics,476
+5947,67,microbes,476
+5947,67,modeling,476
+5947,67,proteomics,476
+5947,67,science communication,476
+5947,67,soil,476
+5947,67,sustainable ag,476
+5947,67,Genetics,473
+5947,67,conservation,473
+5947,67,breeding,470
+5947,67,precision ag,470
+5947,67,CPS,464
+5947,67,digital ag,464
+5947,67,extension,464
+5947,67,policy,464
+5947,67,sensors,464
+5947,67,society,464
+5947,67,materials engineering,65
+5947,67,disease control,40
+5947,67,food systems,40
+5947,67,gene expression,40
+5947,67,regulatory science,40
+5947,67,renewable energy,40
+5947,67,synthetic biology,40
+5947,67,biotic stress,37
+5947,67,digital twin,37
+5947,67,digital twins,37
+5947,67,artificial intelligence,34
+5947,67,bioremediation,34
+5947,67,data science,34
+5947,67,carbon capture,31
+5947,67,data analytics,31
+5947,67,decision support,31
+5947,67,outreach,31
+5947,67,plant health,31
+5947,67,plant improvement,31
+5947,67,resilient ag,31
+5947,67,resource economics,31
+5947,67,risk management,31
+5947,67,robotics,31
+5947,67,social sciences,31
+5947,67,waste management,31
+5947,67,Ag economics,28
+5947,67,IoT,28
+5947,67,computer vision,28
+5947,67,education,28
+5947,67,food security,28
+5947,67,geospatial,28
+5947,67,labor,28
+5947,67,machine learning,28
+5947,67,mass spectronomy,28
+5947,67,nematodes,28
+5947,67,nutrient cycle,28
+5947,67,pest mgmt,28
+5947,67,plant signalling,28
+5947,67,supply chain,28
+5947,67,workforce development,28
+6160,68,automation,155
+6160,68,genomics,155
+6160,68,imaging,155
+6160,68,modeling,155
+6160,68,sensing,155
+6160,68,Agtech,150
+6160,68,Ecology,150
+6160,68,breeding,150
+6160,68,conservation,150
+6160,68,pathology,150
+6160,68,precision ag,150
+6160,68,proteomics,150
+6160,68,soil,150
+6160,68,CRISPR,148
+6160,68,Genetics,148
+6160,68,community,148
+6160,68,fungi,148
+6160,68,microbes,142
+6160,68,regenerative ag,142
+6160,68,science communication,142
+6160,68,sustainable ag,142
+6160,68,sensors,141
+6160,68,policy,140
+6160,68,CPS,139
+6160,68,digital ag,139
+6160,68,extension,139
+6160,68,society,139
+6160,68,computer vision,50
+6160,68,data science,50
+6160,68,geospatial,50
+6160,68,machine learning,50
+6160,68,pest mgmt,50
+6160,68,robotics,50
+6160,68,plant improvement,48
+6160,68,plant signalling,48
+6160,68,artificial intelligence,45
+6160,68,data analytics,45
+6160,68,food security,45
+6160,68,food systems,45
+6160,68,biotic stress,43
+6160,68,disease control,43
+6160,68,outreach,43
+6160,68,plant health,43
+6160,68,synthetic biology,43
+6160,68,IoT,37
+6160,68,carbon capture,37
+6160,68,decision support,37
+6160,68,digital twin,37
+6160,68,materials engineering,37
+6160,68,renewable energy,37
+6160,68,resource economics,37
+6160,68,Ag economics,35
+6160,68,digital twins,35
+6160,68,education,35
+6160,68,gene expression,35
+6160,68,labor,35
+6160,68,nematodes,35
+6160,68,nutrient cycle,35
+6160,68,regulatory science,35
+6160,68,resilient ag,35
+6160,68,risk management,35
+6160,68,social sciences,35
+6160,68,bioremediation,34
+6160,68,mass spectronomy,34
+6160,68,supply chain,34
+6160,68,waste management,34
+6160,68,workforce development,34
+6160,68,plant-microbe interactions,1
+6374,68,genomics,445
+6374,68,Genetics,437
+6374,68,breeding,437
+6374,68,Ecology,423
+6374,68,conservation,423
+6374,68,Agtech,410
+6374,68,modeling,410
+6374,68,soil,410
+6374,68,sustainable ag,410
+6374,68,CRISPR,408
+6374,68,fungi,408
+6374,68,microbes,408
+6374,68,proteomics,408
+6374,68,community,394
+6374,68,pathology,394
+6374,68,regenerative ag,394
+6374,68,science communication,394
+6374,68,automation,384
+6374,68,imaging,384
+6374,68,policy,384
+6374,68,precision ag,384
+6374,68,sensing,384
+6374,68,society,384
+6374,68,CPS,381
+6374,68,digital ag,381
+6374,68,extension,381
+6374,68,sensors,381
+6374,68,plant improvement,75
+6374,68,plant health,67
+6374,68,data science,54
+6374,68,gene expression,54
+6374,68,biotic stress,53
+6374,68,food security,40
+6374,68,food systems,40
+6374,68,pest mgmt,40
+6374,68,plant signalling,40
+6374,68,renewable energy,40
+6374,68,synthetic biology,38
+6374,68,machine learning,30
+6374,68,resource economics,30
+6374,68,geospatial,27
+6374,68,digital twin,24
+6374,68,digital twins,24
+6374,68,disease control,24
+6374,68,nematodes,24
+6374,68,regulatory science,24
+6374,68,nutrient cycle,21
+6374,68,Ag economics,14
+6374,68,IoT,14
+6374,68,artificial intelligence,14
+6374,68,carbon capture,14
+6374,68,computer vision,14
+6374,68,education,14
+6374,68,labor,14
+6374,68,materials engineering,14
+6374,68,outreach,14
+6374,68,robotics,14
+6374,68,social sciences,14
+6374,68,bioremediation,11
+6374,68,data analytics,11
+6374,68,decision support,11
+6374,68,mass spectronomy,11
+6374,68,resilient ag,11
+6374,68,risk management,11
+6374,68,supply chain,11
+6374,68,waste management,11
+6374,68,workforce development,11
+6374,68,plant-microbe interactions,10
+6399,67,Agtech,168
+6399,67,CPS,168
+6399,67,CRISPR,168
+6399,67,Ecology,168
+6399,67,Genetics,168
+6399,67,automation,168
+6399,67,breeding,168
+6399,67,community,168
+6399,67,conservation,168
+6399,67,digital ag,168
+6399,67,extension,168
+6399,67,fungi,168
+6399,67,genomics,168
+6399,67,imaging,168
+6399,67,microbes,168
+6399,67,modeling,168
+6399,67,pathology,168
+6399,67,policy,168
+6399,67,precision ag,168
+6399,67,proteomics,168
+6399,67,regenerative ag,168
+6399,67,science communication,168
+6399,67,sensing,168
+6399,67,sensors,168
+6399,67,society,168
+6399,67,soil,168
+6399,67,sustainable ag,168
+6399,67,Ag economics,2
+6399,67,IoT,2
+6399,67,artificial intelligence,2
+6399,67,bioremediation,2
+6399,67,biotic stress,2
+6399,67,carbon capture,2
+6399,67,computer vision,2
+6399,67,data analytics,2
+6399,67,data science,2
+6399,67,decision support,2
+6399,67,digital twin,2
+6399,67,digital twins,2
+6399,67,disease control,2
+6399,67,education,2
+6399,67,food security,2
+6399,67,food systems,2
+6399,67,gene expression,2
+6399,67,geospatial,2
+6399,67,labor,2
+6399,67,machine learning,2
+6399,67,mass spectronomy,2
+6399,67,materials engineering,2
+6399,67,nematodes,2
+6399,67,nutrient cycle,2
+6399,67,outreach,2
+6399,67,pest mgmt,2
+6399,67,plant health,2
+6399,67,plant improvement,2
+6399,67,plant signalling,2
+6399,67,regulatory science,2
+6399,67,renewable energy,2
+6399,67,resilient ag,2
+6399,67,resource economics,2
+6399,67,risk management,2
+6399,67,robotics,2
+6399,67,social sciences,2
+6399,67,supply chain,2
+6399,67,synthetic biology,2
+6399,67,waste management,2
+6399,67,workforce development,2
+6653,67,sustainable ag,252
+6653,67,Agtech,246
+6653,67,CRISPR,246
+6653,67,Ecology,246
+6653,67,Genetics,246
+6653,67,automation,246
+6653,67,breeding,246
+6653,67,community,246
+6653,67,conservation,246
+6653,67,genomics,246
+6653,67,imaging,246
+6653,67,microbes,246
+6653,67,modeling,246
+6653,67,policy,246
+6653,67,precision ag,246
+6653,67,regenerative ag,246
+6653,67,science communication,246
+6653,67,sensing,246
+6653,67,soil,246
+6653,67,fungi,242
+6653,67,pathology,242
+6653,67,proteomics,242
+6653,67,CPS,240
+6653,67,digital ag,240
+6653,67,extension,240
+6653,67,sensors,240
+6653,67,society,240
+6653,67,carbon capture,110
+6653,67,food security,110
+6653,67,renewable energy,110
+6653,67,resource economics,110
+6653,67,Ag economics,104
+6653,67,IoT,104
+6653,67,artificial intelligence,104
+6653,67,biotic stress,104
+6653,67,data analytics,104
+6653,67,data science,104
+6653,67,decision support,104
+6653,67,digital twin,104
+6653,67,digital twins,104
+6653,67,disease control,104
+6653,67,education,104
+6653,67,food systems,104
+6653,67,gene expression,104
+6653,67,geospatial,104
+6653,67,machine learning,104
+6653,67,materials engineering,104
+6653,67,nutrient cycle,104
+6653,67,outreach,104
+6653,67,pest mgmt,104
+6653,67,plant health,104
+6653,67,regulatory science,104
+6653,67,resilient ag,104
+6653,67,risk management,104
+6653,67,social sciences,104
+6653,67,supply chain,104
+6653,67,synthetic biology,104
+6653,67,waste management,104
+6653,67,bioremediation,100
+6653,67,workforce development,100
+6653,67,computer vision,98
+6653,67,labor,98
+6653,67,mass spectronomy,98
+6653,67,nematodes,98
+6653,67,plant improvement,98
+6653,67,plant signalling,98
+6653,67,robotics,98
+6713,67,science communication,1219
+6713,67,imaging,1200
+6713,67,sensing,1191
+6713,67,microbes,1189
+6713,67,Genetics,1184
+6713,67,genomics,1184
+6713,67,soil,1184
+6713,67,policy,1182
+6713,67,sustainable ag,1182
+6713,67,Agtech,1177
+6713,67,CPS,1177
+6713,67,CRISPR,1177
+6713,67,Ecology,1177
+6713,67,automation,1177
+6713,67,breeding,1177
+6713,67,community,1177
+6713,67,conservation,1177
+6713,67,digital ag,1177
+6713,67,extension,1177
+6713,67,fungi,1177
+6713,67,modeling,1177
+6713,67,pathology,1177
+6713,67,precision ag,1177
+6713,67,proteomics,1177
+6713,67,regenerative ag,1177
+6713,67,sensors,1177
+6713,67,society,1177
+6713,67,materials engineering,292
+6713,67,renewable energy,190
+6713,67,digital twin,174
+6713,67,synthetic biology,172
+6713,67,carbon capture,165
+6713,67,food security,165
+6713,67,geospatial,165
+6713,67,outreach,165
+6713,67,regulatory science,165
+6713,67,resilient ag,165
+6713,67,risk management,165
+6713,67,social sciences,165
+6713,67,bioremediation,161
+6713,67,Ag economics,160
+6713,67,IoT,160
+6713,67,artificial intelligence,160
+6713,67,biotic stress,160
+6713,67,computer vision,160
+6713,67,data analytics,160
+6713,67,data science,160
+6713,67,decision support,160
+6713,67,digital twins,160
+6713,67,disease control,160
+6713,67,education,160
+6713,67,food systems,160
+6713,67,gene expression,160
+6713,67,labor,160
+6713,67,machine learning,160
+6713,67,mass spectronomy,160
+6713,67,nematodes,160
+6713,67,nutrient cycle,160
+6713,67,pest mgmt,160
+6713,67,plant health,160
+6713,67,plant improvement,160
+6713,67,plant signalling,160
+6713,67,resource economics,160
+6713,67,robotics,160
+6713,67,supply chain,160
+6713,67,waste management,160
+6713,67,workforce development,160
+6910,27,Agtech,26
+6910,27,CPS,26
+6910,27,CRISPR,26
+6910,27,Ecology,26
+6910,27,Genetics,26
+6910,27,automation,26
+6910,27,breeding,26
+6910,27,community,26
+6910,27,conservation,26
+6910,27,digital ag,26
+6910,27,extension,26
+6910,27,fungi,26
+6910,27,genomics,26
+6910,27,imaging,26
+6910,27,microbes,26
+6910,27,modeling,26
+6910,27,pathology,26
+6910,27,policy,26
+6910,27,precision ag,26
+6910,27,proteomics,26
+6910,27,regenerative ag,26
+6910,27,science communication,26
+6910,27,sensing,26
+6910,27,sensors,26
+6910,27,society,26
+6910,27,soil,26
+6910,27,sustainable ag,26
+7050,68,sensing,581
+7050,68,CRISPR,566
+7050,68,genomics,566
+7050,68,microbes,566
+7050,68,pathology,566
+7050,68,proteomics,566
+7050,68,regenerative ag,566
+7050,68,science communication,566
+7050,68,Agtech,561
+7050,68,Genetics,561
+7050,68,soil,561
+7050,68,sustainable ag,561
+7050,68,imaging,560
+7050,68,Ecology,555
+7050,68,fungi,555
+7050,68,modeling,555
+7050,68,automation,554
+7050,68,precision ag,554
+7050,68,sensors,551
+7050,68,community,548
+7050,68,conservation,548
+7050,68,breeding,547
+7050,68,CPS,538
+7050,68,digital ag,538
+7050,68,extension,538
+7050,68,policy,538
+7050,68,society,538
+7050,68,materials engineering,105
+7050,68,gene expression,96
+7050,68,synthetic biology,96
+7050,68,regulatory science,91
+7050,68,food systems,85
+7050,68,decision support,84
+7050,68,machine learning,84
+7050,68,renewable energy,84
+7050,68,disease control,83
+7050,68,food security,78
+7050,68,nematodes,78
+7050,68,pest mgmt,78
+7050,68,plant health,78
+7050,68,social sciences,78
+7050,68,IoT,77
+7050,68,carbon capture,77
+7050,68,computer vision,77
+7050,68,data analytics,77
+7050,68,data science,77
+7050,68,digital twin,77
+7050,68,outreach,76
+7050,68,digital twins,75
+7050,68,biotic stress,71
+7050,68,nutrient cycle,71
+7050,68,plant improvement,71
+7050,68,plant signalling,71
+7050,68,artificial intelligence,70
+7050,68,robotics,70
+7050,68,bioremediation,69
+7050,68,Ag economics,68
+7050,68,education,68
+7050,68,geospatial,68
+7050,68,labor,68
+7050,68,mass spectronomy,68
+7050,68,resilient ag,68
+7050,68,resource economics,68
+7050,68,risk management,68
+7050,68,supply chain,68
+7050,68,waste management,68
+7050,68,workforce development,68
+7050,68,plant-microbe interactions,3
+7114,68,genomics,799
+7114,68,breeding,798
+7114,68,Genetics,797
+7114,68,microbes,797
+7114,68,proteomics,797
+7114,68,CRISPR,796
+7114,68,modeling,785
+7114,68,Agtech,784
+7114,68,conservation,784
+7114,68,sustainable ag,784
+7114,68,Ecology,783
+7114,68,precision ag,783
+7114,68,sensing,783
+7114,68,soil,783
+7114,68,automation,781
+7114,68,fungi,781
+7114,68,pathology,781
+7114,68,regenerative ag,781
+7114,68,science communication,781
+7114,68,community,780
+7114,68,imaging,780
+7114,68,policy,775
+7114,68,CPS,774
+7114,68,digital ag,774
+7114,68,extension,774
+7114,68,sensors,774
+7114,68,society,774
+7114,68,data science,162
+7114,68,plant improvement,162
+7114,68,gene expression,161
+7114,68,synthetic biology,159
+7114,68,food systems,147
+7114,68,data analytics,146
+7114,68,machine learning,146
+7114,68,plant health,146
+7114,68,renewable energy,146
+7114,68,carbon capture,145
+7114,68,decision support,145
+7114,68,pest mgmt,144
+7114,68,resource economics,144
+7114,68,biotic stress,143
+7114,68,disease control,143
+7114,68,materials engineering,143
+7114,68,regulatory science,143
+7114,68,bioremediation,142
+7114,68,nutrient cycle,142
+7114,68,plant signalling,142
+7114,68,computer vision,141
+7114,68,geospatial,141
+7114,68,artificial intelligence,140
+7114,68,food security,140
+7114,68,social sciences,140
+7114,68,risk management,138
+7114,68,Ag economics,137
+7114,68,IoT,137
+7114,68,digital twin,137
+7114,68,digital twins,137
+7114,68,education,137
+7114,68,labor,137
+7114,68,nematodes,137
+7114,68,outreach,137
+7114,68,resilient ag,137
+7114,68,robotics,137
+7114,68,waste management,137
+7114,68,mass spectronomy,136
+7114,68,supply chain,136
+7114,68,workforce development,136
+7114,68,plant-microbe interactions,1
+7375,67,CRISPR,627
+7375,67,genomics,627
+7375,67,microbes,627
+7375,67,pathology,627
+7375,67,proteomics,627
+7375,67,regenerative ag,627
+7375,67,science communication,627
+7375,67,sensing,627
+7375,67,Agtech,626
+7375,67,CPS,626
+7375,67,Ecology,626
+7375,67,Genetics,626
+7375,67,automation,626
+7375,67,breeding,626
+7375,67,community,626
+7375,67,conservation,626
+7375,67,digital ag,626
+7375,67,extension,626
+7375,67,fungi,626
+7375,67,imaging,626
+7375,67,modeling,626
+7375,67,policy,626
+7375,67,precision ag,626
+7375,67,sensors,626
+7375,67,society,626
+7375,67,soil,626
+7375,67,sustainable ag,626
+7375,67,disease control,13
+7375,67,gene expression,13
+7375,67,synthetic biology,13
+7375,67,Ag economics,12
+7375,67,IoT,12
+7375,67,artificial intelligence,12
+7375,67,bioremediation,12
+7375,67,biotic stress,12
+7375,67,carbon capture,12
+7375,67,computer vision,12
+7375,67,data analytics,12
+7375,67,data science,12
+7375,67,decision support,12
+7375,67,digital twin,12
+7375,67,digital twins,12
+7375,67,education,12
+7375,67,food security,12
+7375,67,food systems,12
+7375,67,geospatial,12
+7375,67,labor,12
+7375,67,machine learning,12
+7375,67,mass spectronomy,12
+7375,67,materials engineering,12
+7375,67,nematodes,12
+7375,67,nutrient cycle,12
+7375,67,outreach,12
+7375,67,pest mgmt,12
+7375,67,plant health,12
+7375,67,plant improvement,12
+7375,67,plant signalling,12
+7375,67,regulatory science,12
+7375,67,renewable energy,12
+7375,67,resilient ag,12
+7375,67,resource economics,12
+7375,67,risk management,12
+7375,67,robotics,12
+7375,67,social sciences,12
+7375,67,supply chain,12
+7375,67,waste management,12
+7375,67,workforce development,12
+7392,68,sustainable ag,552
+7392,68,soil,549
+7392,68,conservation,543
+7392,68,policy,543
+7392,68,community,537
+7392,68,genomics,537
+7392,68,microbes,535
+7392,68,science communication,534
+7392,68,regenerative ag,533
+7392,68,Agtech,532
+7392,68,modeling,531
+7392,68,Ecology,527
+7392,68,CRISPR,519
+7392,68,proteomics,519
+7392,68,Genetics,518
+7392,68,automation,518
+7392,68,breeding,518
+7392,68,imaging,518
+7392,68,pathology,518
+7392,68,precision ag,518
+7392,68,sensing,518
+7392,68,fungi,517
+7392,68,sensors,517
+7392,68,CPS,516
+7392,68,digital ag,516
+7392,68,extension,516
+7392,68,society,516
+7392,68,food security,84
+7392,68,geospatial,84
+7392,68,risk management,83
+7392,68,social sciences,83
+7392,68,regulatory science,81
+7392,68,renewable energy,81
+7392,68,food systems,80
+7392,68,decision support,78
+7392,68,outreach,78
+7392,68,carbon capture,76
+7392,68,Ag economics,74
+7392,68,nutrient cycle,73
+7392,68,plant health,73
+7392,68,waste management,73
+7392,68,bioremediation,72
+7392,68,resource economics,71
+7392,68,disease control,70
+7392,68,data science,69
+7392,68,materials engineering,68
+7392,68,supply chain,68
+7392,68,IoT,64
+7392,68,data analytics,64
+7392,68,resilient ag,64
+7392,68,biotic stress,61
+7392,68,pest mgmt,61
+7392,68,synthetic biology,61
+7392,68,plant improvement,60
+7392,68,artificial intelligence,56
+7392,68,digital twin,56
+7392,68,digital twins,56
+7392,68,education,56
+7392,68,labor,56
+7392,68,machine learning,56
+7392,68,computer vision,55
+7392,68,gene expression,55
+7392,68,mass spectronomy,55
+7392,68,nematodes,55
+7392,68,plant signalling,55
+7392,68,robotics,55
+7392,68,workforce development,54
+7392,68,plant-microbe interactions,1
+7690,67,CRISPR,575
+7690,67,community,575
+7690,67,genomics,575
+7690,67,microbes,575
+7690,67,soil,567
+7690,67,Agtech,566
+7690,67,CPS,566
+7690,67,Ecology,566
+7690,67,Genetics,566
+7690,67,automation,566
+7690,67,breeding,566
+7690,67,conservation,566
+7690,67,digital ag,566
+7690,67,extension,566
+7690,67,fungi,566
+7690,67,imaging,566
+7690,67,modeling,566
+7690,67,pathology,566
+7690,67,policy,566
+7690,67,precision ag,566
+7690,67,proteomics,566
+7690,67,regenerative ag,566
+7690,67,science communication,566
+7690,67,sensing,566
+7690,67,sensors,566
+7690,67,society,566
+7690,67,sustainable ag,566
+7690,67,disease control,24
+7690,67,food systems,24
+7690,67,nematodes,24
+7690,67,geospatial,16
+7690,67,Ag economics,15
+7690,67,IoT,15
+7690,67,artificial intelligence,15
+7690,67,bioremediation,15
+7690,67,biotic stress,15
+7690,67,carbon capture,15
+7690,67,computer vision,15
+7690,67,data analytics,15
+7690,67,data science,15
+7690,67,decision support,15
+7690,67,digital twin,15
+7690,67,digital twins,15
+7690,67,education,15
+7690,67,food security,15
+7690,67,gene expression,15
+7690,67,labor,15
+7690,67,machine learning,15
+7690,67,mass spectronomy,15
+7690,67,materials engineering,15
+7690,67,nutrient cycle,15
+7690,67,outreach,15
+7690,67,pest mgmt,15
+7690,67,plant health,15
+7690,67,plant improvement,15
+7690,67,plant signalling,15
+7690,67,regulatory science,15
+7690,67,renewable energy,15
+7690,67,resilient ag,15
+7690,67,resource economics,15
+7690,67,risk management,15
+7690,67,robotics,15
+7690,67,social sciences,15
+7690,67,supply chain,15
+7690,67,synthetic biology,15
+7690,67,waste management,15
+7690,67,workforce development,15
+8076,68,Ecology,273
+8076,68,conservation,273
+8076,68,fungi,272
+8076,68,microbes,270
+8076,68,soil,269
+8076,68,Genetics,268
+8076,68,breeding,268
+8076,68,genomics,267
+8076,68,sustainable ag,267
+8076,68,community,263
+8076,68,modeling,263
+8076,68,policy,262
+8076,68,Agtech,261
+8076,68,CRISPR,261
+8076,68,science communication,261
+8076,68,pathology,257
+8076,68,proteomics,257
+8076,68,automation,254
+8076,68,sensing,254
+8076,68,precision ag,253
+8076,68,regenerative ag,253
+8076,68,imaging,252
+8076,68,sensors,252
+8076,68,CPS,251
+8076,68,digital ag,251
+8076,68,extension,251
+8076,68,society,251
+8076,68,food security,36
+8076,68,food systems,36
+8076,68,plant health,36
+8076,68,plant improvement,36
+8076,68,biotic stress,35
+8076,68,disease control,35
+8076,68,nematodes,35
+8076,68,pest mgmt,35
+8076,68,regulatory science,30
+8076,68,plant signalling,26
+8076,68,risk management,26
+8076,68,social sciences,26
+8076,68,synthetic biology,26
+8076,68,resource economics,25
+8076,68,carbon capture,24
+8076,68,renewable energy,24
+8076,68,data analytics,23
+8076,68,data science,23
+8076,68,decision support,23
+8076,68,geospatial,22
+8076,68,outreach,21
+8076,68,bioremediation,20
+8076,68,gene expression,20
+8076,68,nutrient cycle,19
+8076,68,Ag economics,17
+8076,68,artificial intelligence,16
+8076,68,machine learning,16
+8076,68,waste management,16
+8076,68,IoT,15
+8076,68,computer vision,15
+8076,68,digital twin,15
+8076,68,digital twins,15
+8076,68,materials engineering,15
+8076,68,resilient ag,15
+8076,68,robotics,15
+8076,68,supply chain,15
+8076,68,education,14
+8076,68,labor,14
+8076,68,mass spectronomy,14
+8076,68,workforce development,14
+8076,68,plant-microbe interactions,6
+8262,68,Ecology,337
+8262,68,microbes,337
+8262,68,soil,337
+8262,68,fungi,335
+8262,68,genomics,335
+8262,68,Agtech,333
+8262,68,CPS,333
+8262,68,CRISPR,333
+8262,68,Genetics,333
+8262,68,automation,333
+8262,68,breeding,333
+8262,68,community,333
+8262,68,conservation,333
+8262,68,digital ag,333
+8262,68,extension,333
+8262,68,imaging,333
+8262,68,modeling,333
+8262,68,pathology,333
+8262,68,policy,333
+8262,68,precision ag,333
+8262,68,proteomics,333
+8262,68,regenerative ag,333
+8262,68,science communication,333
+8262,68,sensing,333
+8262,68,sensors,333
+8262,68,society,333
+8262,68,sustainable ag,333
+8262,68,nutrient cycle,42
+8262,68,biotic stress,40
+8262,68,plant health,40
+8262,68,plant improvement,40
+8262,68,plant signalling,40
+8262,68,Ag economics,38
+8262,68,IoT,38
+8262,68,artificial intelligence,38
+8262,68,bioremediation,38
+8262,68,carbon capture,38
+8262,68,computer vision,38
+8262,68,data analytics,38
+8262,68,data science,38
+8262,68,decision support,38
+8262,68,digital twin,38
+8262,68,digital twins,38
+8262,68,disease control,38
+8262,68,education,38
+8262,68,food security,38
+8262,68,food systems,38
+8262,68,gene expression,38
+8262,68,geospatial,38
+8262,68,labor,38
+8262,68,machine learning,38
+8262,68,mass spectronomy,38
+8262,68,materials engineering,38
+8262,68,nematodes,38
+8262,68,outreach,38
+8262,68,pest mgmt,38
+8262,68,regulatory science,38
+8262,68,renewable energy,38
+8262,68,resilient ag,38
+8262,68,resource economics,38
+8262,68,risk management,38
+8262,68,robotics,38
+8262,68,social sciences,38
+8262,68,supply chain,38
+8262,68,synthetic biology,38
+8262,68,waste management,38
+8262,68,workforce development,38
+8262,68,plant-microbe interactions,4
+8284,68,Ecology,235
+8284,68,fungi,235
+8284,68,microbes,235
+8284,68,soil,235
+8284,68,Genetics,234
+8284,68,genomics,234
+8284,68,breeding,232
+8284,68,Agtech,230
+8284,68,CPS,230
+8284,68,CRISPR,230
+8284,68,automation,230
+8284,68,community,230
+8284,68,conservation,230
+8284,68,digital ag,230
+8284,68,extension,230
+8284,68,imaging,230
+8284,68,modeling,230
+8284,68,pathology,230
+8284,68,policy,230
+8284,68,precision ag,230
+8284,68,proteomics,230
+8284,68,regenerative ag,230
+8284,68,science communication,230
+8284,68,sensing,230
+8284,68,sensors,230
+8284,68,society,230
+8284,68,sustainable ag,230
+8284,68,plant improvement,8
+8284,68,bioremediation,6
+8284,68,biotic stress,6
+8284,68,nutrient cycle,6
+8284,68,plant health,6
+8284,68,plant signalling,6
+8284,68,plant-microbe interactions,5
+8284,68,Ag economics,1
+8284,68,IoT,1
+8284,68,artificial intelligence,1
+8284,68,carbon capture,1
+8284,68,computer vision,1
+8284,68,data analytics,1
+8284,68,data science,1
+8284,68,decision support,1
+8284,68,digital twin,1
+8284,68,digital twins,1
+8284,68,disease control,1
+8284,68,education,1
+8284,68,food security,1
+8284,68,food systems,1
+8284,68,gene expression,1
+8284,68,geospatial,1
+8284,68,labor,1
+8284,68,machine learning,1
+8284,68,mass spectronomy,1
+8284,68,materials engineering,1
+8284,68,nematodes,1
+8284,68,outreach,1
+8284,68,pest mgmt,1
+8284,68,regulatory science,1
+8284,68,renewable energy,1
+8284,68,resilient ag,1
+8284,68,resource economics,1
+8284,68,risk management,1
+8284,68,robotics,1
+8284,68,social sciences,1
+8284,68,supply chain,1
+8284,68,synthetic biology,1
+8284,68,waste management,1
+8284,68,workforce development,1
+8413,27,Agtech,53
+8413,27,CPS,53
+8413,27,CRISPR,53
+8413,27,Ecology,53
+8413,27,Genetics,53
+8413,27,automation,53
+8413,27,breeding,53
+8413,27,community,53
+8413,27,conservation,53
+8413,27,digital ag,53
+8413,27,extension,53
+8413,27,fungi,53
+8413,27,genomics,53
+8413,27,imaging,53
+8413,27,microbes,53
+8413,27,modeling,53
+8413,27,pathology,53
+8413,27,policy,53
+8413,27,precision ag,53
+8413,27,proteomics,53
+8413,27,regenerative ag,53
+8413,27,science communication,53
+8413,27,sensing,53
+8413,27,sensors,53
+8413,27,society,53
+8413,27,soil,53
+8413,27,sustainable ag,53
+8451,27,Agtech,4
+8451,27,CPS,4
+8451,27,CRISPR,4
+8451,27,Ecology,4
+8451,27,Genetics,4
+8451,27,automation,4
+8451,27,breeding,4
+8451,27,community,4
+8451,27,conservation,4
+8451,27,digital ag,4
+8451,27,extension,4
+8451,27,fungi,4
+8451,27,genomics,4
+8451,27,imaging,4
+8451,27,microbes,4
+8451,27,modeling,4
+8451,27,pathology,4
+8451,27,policy,4
+8451,27,precision ag,4
+8451,27,proteomics,4
+8451,27,regenerative ag,4
+8451,27,science communication,4
+8451,27,sensing,4
+8451,27,sensors,4
+8451,27,society,4
+8451,27,soil,4
+8451,27,sustainable ag,4
+8660,67,conservation,375
+8660,67,sustainable ag,375
+8660,67,Ecology,371
+8660,67,modeling,370
+8660,67,community,369
+8660,67,soil,367
+8660,67,Agtech,362
+8660,67,policy,359
+8660,67,science communication,359
+8660,67,genomics,347
+8660,67,microbes,345
+8660,67,sensing,345
+8660,67,automation,339
+8660,67,regenerative ag,339
+8660,67,precision ag,337
+8660,67,breeding,336
+8660,67,Genetics,334
+8660,67,fungi,334
+8660,67,pathology,334
+8660,67,CPS,330
+8660,67,CRISPR,330
+8660,67,digital ag,330
+8660,67,extension,330
+8660,67,imaging,330
+8660,67,proteomics,330
+8660,67,sensors,330
+8660,67,society,330
+8660,67,resource economics,101
+8660,67,geospatial,97
+8660,67,data science,96
+8660,67,food systems,96
+8660,67,food security,95
+8660,67,regulatory science,95
+8660,67,carbon capture,90
+8660,67,outreach,89
+8660,67,renewable energy,89
+8660,67,waste management,89
+8660,67,decision support,87
+8660,67,pest mgmt,87
+8660,67,disease control,85
+8660,67,risk management,85
+8660,67,social sciences,85
+8660,67,nutrient cycle,80
+8660,67,plant health,80
+8660,67,data analytics,76
+8660,67,bioremediation,70
+8660,67,machine learning,65
+8660,67,biotic stress,63
+8660,67,artificial intelligence,60
+8660,67,plant improvement,60
+8660,67,resilient ag,59
+8660,67,computer vision,57
+8660,67,gene expression,57
+8660,67,Ag economics,54
+8660,67,education,54
+8660,67,nematodes,54
+8660,67,supply chain,54
+8660,67,IoT,50
+8660,67,digital twin,50
+8660,67,digital twins,50
+8660,67,labor,50
+8660,67,mass spectronomy,50
+8660,67,materials engineering,50
+8660,67,plant signalling,50
+8660,67,robotics,50
+8660,67,synthetic biology,50
+8660,67,workforce development,50
+8793,67,Agtech,28
+8793,67,CPS,28
+8793,67,CRISPR,28
+8793,67,Ecology,28
+8793,67,Genetics,28
+8793,67,automation,28
+8793,67,breeding,28
+8793,67,community,28
+8793,67,conservation,28
+8793,67,digital ag,28
+8793,67,extension,28
+8793,67,fungi,28
+8793,67,genomics,28
+8793,67,imaging,28
+8793,67,microbes,28
+8793,67,modeling,28
+8793,67,pathology,28
+8793,67,policy,28
+8793,67,precision ag,28
+8793,67,proteomics,28
+8793,67,regenerative ag,28
+8793,67,science communication,28
+8793,67,sensing,28
+8793,67,sensors,28
+8793,67,society,28
+8793,67,soil,28
+8793,67,sustainable ag,28
+8793,67,Ag economics,7
+8793,67,IoT,7
+8793,67,artificial intelligence,7
+8793,67,bioremediation,7
+8793,67,biotic stress,7
+8793,67,carbon capture,7
+8793,67,computer vision,7
+8793,67,data analytics,7
+8793,67,data science,7
+8793,67,decision support,7
+8793,67,digital twin,7
+8793,67,digital twins,7
+8793,67,disease control,7
+8793,67,education,7
+8793,67,food security,7
+8793,67,food systems,7
+8793,67,gene expression,7
+8793,67,geospatial,7
+8793,67,labor,7
+8793,67,machine learning,7
+8793,67,mass spectronomy,7
+8793,67,materials engineering,7
+8793,67,nematodes,7
+8793,67,nutrient cycle,7
+8793,67,outreach,7
+8793,67,pest mgmt,7
+8793,67,plant health,7
+8793,67,plant improvement,7
+8793,67,plant signalling,7
+8793,67,regulatory science,7
+8793,67,renewable energy,7
+8793,67,resilient ag,7
+8793,67,resource economics,7
+8793,67,risk management,7
+8793,67,robotics,7
+8793,67,social sciences,7
+8793,67,supply chain,7
+8793,67,synthetic biology,7
+8793,67,waste management,7
+8793,67,workforce development,7
+9349,68,fungi,358
+9349,68,soil,353
+9349,68,CRISPR,350
+9349,68,Genetics,350
+9349,68,breeding,350
+9349,68,genomics,350
+9349,68,microbes,350
+9349,68,proteomics,350
+9349,68,Agtech,349
+9349,68,Ecology,349
+9349,68,community,349
+9349,68,conservation,349
+9349,68,modeling,349
+9349,68,pathology,349
+9349,68,policy,349
+9349,68,science communication,349
+9349,68,sustainable ag,349
+9349,68,automation,348
+9349,68,imaging,348
+9349,68,precision ag,348
+9349,68,regenerative ag,348
+9349,68,sensing,347
+9349,68,sensors,347
+9349,68,CPS,346
+9349,68,digital ag,346
+9349,68,extension,346
+9349,68,society,346
+9349,68,plant health,13
+9349,68,biotic stress,12
+9349,68,disease control,8
+9349,68,pest mgmt,8
+9349,68,plant improvement,8
+9349,68,plant-microbe interactions,8
+9349,68,nematodes,7
+9349,68,gene expression,5
+9349,68,synthetic biology,5
+9349,68,carbon capture,4
+9349,68,data science,4
+9349,68,food systems,4
+9349,68,regulatory science,4
+9349,68,renewable energy,4
+9349,68,resource economics,4
+9349,68,bioremediation,3
+9349,68,data analytics,3
+9349,68,decision support,3
+9349,68,food security,3
+9349,68,geospatial,3
+9349,68,materials engineering,3
+9349,68,nutrient cycle,3
+9349,68,plant signalling,3
+9349,68,resilient ag,3
+9349,68,risk management,3
+9349,68,social sciences,3
+9349,68,waste management,3
+9349,68,Ag economics,2
+9349,68,IoT,2
+9349,68,artificial intelligence,2
+9349,68,computer vision,2
+9349,68,digital twin,2
+9349,68,digital twins,2
+9349,68,machine learning,2
+9349,68,outreach,2
+9349,68,robotics,2
+9349,68,education,1
+9349,68,labor,1
+9349,68,mass spectronomy,1
+9349,68,supply chain,1
+9349,68,workforce development,1
+9502,27,Agtech,23
+9502,27,CPS,23
+9502,27,CRISPR,23
+9502,27,Ecology,23
+9502,27,Genetics,23
+9502,27,automation,23
+9502,27,breeding,23
+9502,27,community,23
+9502,27,conservation,23
+9502,27,digital ag,23
+9502,27,extension,23
+9502,27,fungi,23
+9502,27,genomics,23
+9502,27,imaging,23
+9502,27,microbes,23
+9502,27,modeling,23
+9502,27,pathology,23
+9502,27,policy,23
+9502,27,precision ag,23
+9502,27,proteomics,23
+9502,27,regenerative ag,23
+9502,27,science communication,23
+9502,27,sensing,23
+9502,27,sensors,23
+9502,27,society,23
+9502,27,soil,23
+9502,27,sustainable ag,23
+9541,68,Agtech,208
+9541,68,CRISPR,208
+9541,68,Ecology,208
+9541,68,Genetics,208
+9541,68,breeding,208
+9541,68,community,208
+9541,68,conservation,208
+9541,68,fungi,208
+9541,68,genomics,208
+9541,68,microbes,208
+9541,68,modeling,208
+9541,68,pathology,208
+9541,68,precision ag,208
+9541,68,proteomics,208
+9541,68,regenerative ag,208
+9541,68,science communication,208
+9541,68,soil,208
+9541,68,sustainable ag,208
+9541,68,automation,207
+9541,68,imaging,207
+9541,68,policy,207
+9541,68,sensing,207
+9541,68,society,205
+9541,68,sensors,197
+9541,68,CPS,196
+9541,68,digital ag,196
+9541,68,extension,196
+9541,68,biotic stress,37
+9541,68,disease control,37
+9541,68,gene expression,37
+9541,68,regulatory science,37
+9541,68,resource economics,37
+9541,68,data analytics,36
+9541,68,data science,36
+9541,68,geospatial,36
+9541,68,materials engineering,36
+9541,68,outreach,36
+9541,68,pest mgmt,36
+9541,68,resilient ag,36
+9541,68,social sciences,36
+9541,68,waste management,36
+9541,68,Ag economics,35
+9541,68,artificial intelligence,35
+9541,68,decision support,35
+9541,68,digital twin,35
+9541,68,digital twins,35
+9541,68,education,35
+9541,68,labor,35
+9541,68,machine learning,35
+9541,68,risk management,35
+9541,68,supply chain,34
+9541,68,workforce development,34
+9541,68,food systems,28
+9541,68,nutrient cycle,28
+9541,68,plant health,28
+9541,68,synthetic biology,28
+9541,68,bioremediation,27
+9541,68,carbon capture,27
+9541,68,food security,27
+9541,68,nematodes,27
+9541,68,renewable energy,27
+9541,68,IoT,26
+9541,68,computer vision,26
+9541,68,mass spectronomy,26
+9541,68,plant improvement,26
+9541,68,plant signalling,26
+9541,68,robotics,26
+9541,68,plant-microbe interactions,1

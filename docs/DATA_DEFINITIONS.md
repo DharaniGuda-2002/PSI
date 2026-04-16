@@ -30,8 +30,9 @@ Columns:
 
 ### Processed Output: `papers_filtered.csv`
 
-- Rows: **3159**
+- Rows: **2732**
 - Columns: **8**
+- Unique `nc_authors`: **1615**
 
 Columns:
 
@@ -79,6 +80,7 @@ The preprocessing notebook currently:
 - reads `Papers.csv`,
 - drops unused columns such as `Unnamed: 0`, `PMID`, `url`, and `abstract`,
 - removes rows with missing values needed for downstream processing,
+- keeps only papers with `year` from **2016** through **2025**,
 - parses NC State entries into author names and Unity IDs,
 - performs quality checks on parsed NC State information,
 - and writes the cleaned output to `papers_filtered.csv`.

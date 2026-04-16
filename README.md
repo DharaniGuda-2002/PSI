@@ -11,7 +11,7 @@ This repo currently helps us:
 - clean and standardize PSI publication records,
 - identify NC State-affiliated researchers from publication metadata,
 - load the publication network into Neo4j,
-- build an NC State co-authorship graph,
+- build an author co-authorship graph with NC State authors flagged,
 - and analyze collaboration structure using graph metrics.
 
 ## Repository Workflow
@@ -25,6 +25,7 @@ This repo currently helps us:
 
 - [Data Definitions](/Users/dharani/Desktop/PSI/DATA_DEFINITIONS.md)
 - [Neo4j Workflow](/Users/dharani/Desktop/PSI/NEO4J_GUIDE.md)
+- [GDS Projections](/Users/dharani/Desktop/PSI/docs/GDS_PROJECTIONS.md)
 - [Metrics Results](/Users/dharani/Desktop/PSI/METRICS_GUIDE.md)
 
 ## Main Files
@@ -38,6 +39,6 @@ This repo currently helps us:
 
 ## Notes
 
-- The current graph loading workflow uses NC State people parsed from `nc_state_people`.
+- The current Neo4j workflow loads all authors from `papers_filtered.csv` and marks NC State authors with `Author.nc_state = true`.
 - The current `centrality.csv` output reflects NC State authors in the co-authorship network.
 - Future work may expand the analysis to compare NC and non-NC collaborators, temporal slices, topic diversity, and broader interdisciplinarity measures.
