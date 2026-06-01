@@ -143,6 +143,7 @@ def fetch_centrality_rows(session):
         MATCH (a:Author)
         RETURN
           a.name AS Name,
+          a.nc_state AS nc_state,
           a.degree AS degree,
           a.weightedDegree AS weightedDegree,
           a.betweenness AS betweenness,
@@ -157,8 +158,13 @@ def fetch_centrality_rows(session):
 
 def write_csv(rows, output_path):
     output_path.parent.mkdir(parents=True, exist_ok=True)
+    if output_path.exists():
+        output_path.unlink()
+        print(f"Deleted existing output file: {output_path}")
+
     fieldnames = [
         "Name",
+        "nc_state",
         "degree",
         "weightedDegree",
         "betweenness",

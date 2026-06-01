@@ -8,7 +8,7 @@ def get_neo4j_settings():
         "uri": os.getenv("NEO4J_URI", "bolt://localhost:7687"),
         "user": os.getenv("NEO4J_USER", "neo4j"),
         "password": os.getenv("NEO4J_PASS","Dharani@2002"),
-        "database": os.getenv("NEO4J_DB", "nc-data"),
+        "database": os.getenv("NEO4J_DB", "psi-db"),
     }
 
     if not settings["password"]:
