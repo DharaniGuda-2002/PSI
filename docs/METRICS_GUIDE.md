@@ -6,7 +6,7 @@ This document explains:
 - what algorithms Neo4j GDS uses,
 - the core formula behind each metric,
 - why each metric matters for this project,
-- and how the current `centrality.csv` output should be interpreted.
+- and how the current `data/centrality.csv` output should be interpreted.
 
 Notebook reference: `notebooks/nc_metrics.ipynb`
 
@@ -65,7 +65,7 @@ For an undirected graph, this is the number of adjacent neighbors of node `v`.
 C_W(v) = Σ w(v, u), for all neighbors u of v
 ```
 
-Neo4j GDS computes weighted degree as the sum of positive adjacent relationship weights.
+Neo4j GDS computes weighted degree as the sum of adjacent relationship weights.
 
 - Why it matters here:
   - `degree` captures collaboration breadth.
@@ -74,9 +74,6 @@ Neo4j GDS computes weighted degree as the sum of positive adjacent relationship 
 ### Betweenness
 
 - Neo4j GDS algorithm: `gds.betweenness.write`
-- Algorithm basis in GDS:
-  - Brandes' approximate algorithm for unweighted graphs
-  - multiple concurrent Dijkstra searches for weighted graphs
 - Meaning: how often an author lies on shortest paths between other authors
 - Formula:
 
@@ -95,17 +92,7 @@ where:
 ### Closeness
 
 - Neo4j GDS algorithm: `gds.closeness.write`
-- Algorithm basis in GDS:
-  - shortest-path computation across the graph
-  - BFS-style traversal for unweighted shortest paths
-  - weighted shortest paths when a relationship weight property is used
 - Meaning: how close an author is, on average, to other reachable authors
-- Raw formula:
-
-```text
-C_raw(u) = 1 / Σ d(u, v)
-```
-
 - Normalized formula:
 
 ```text
@@ -117,23 +104,14 @@ where:
 - `d(u, v)` is the shortest-path distance from `u` to `v`
 - `N` is the number of nodes in the graph
 
-Neo4j GDS also supports the Wasserman-Faust correction for disconnected graphs, but that option is separate from the default computation.
-
 - Why it matters here:
   - high-closeness authors are positioned to reach other authors quickly within their connected component
 
 ### Eigenvector Centrality
 
 - Neo4j GDS algorithm: `gds.eigenvector.write`
-- Algorithm basis in GDS: Power iteration with L2 normalization after each iteration
 - Meaning: an author is important if they are connected to other important authors
 - Formula:
-
-```text
-x_v = (1 / λ) Σ A_uv x_u
-```
-
-or in matrix form:
 
 ```text
 Ax = λx
@@ -144,8 +122,6 @@ where:
 - `A` is the adjacency matrix
 - `x` is the eigenvector centrality score vector
 - `λ` is the dominant eigenvalue
-
-Neo4j GDS computes the eigenvector associated with the largest absolute eigenvalue.
 
 - Why it matters here:
   - high-eigenvector authors sit in influential parts of the collaboration core, not just high-degree positions
@@ -165,28 +141,27 @@ where:
 
 - `A_ij` is the edge weight between nodes `i` and `j`
 - `k_i` and `k_j` are node degrees or weighted degrees
-- `m` is the total number of edges or total edge weight
+- `m` is the total edge weight
 - `δ(c_i, c_j)` is `1` if nodes `i` and `j` are in the same community, otherwise `0`
-
-The Louvain algorithm is hierarchical: it repeatedly improves modularity locally, then compresses each community into a super-node and repeats the process.
 
 - Why it matters here:
   - it identifies collaboration sub-networks that may correspond to research groups, topical clusters, or repeated collaboration communities
 
-## 4) Result Summary (Current `centrality.csv`)
+## 4) Result Summary (Current `data/centrality.csv`)
 
-- Authors scored: **1708**
-- Distinct communities: **33**
-- Largest community: **ID 185** with **213 authors**
-- Isolates (`degree = 0`): **4**
-- Authors with `weightedDegree > degree`: **880**
+- Authors scored: **9575**
+- Distinct communities: **48**
+- Largest community: **ID 5536** with **816 authors**
+- Isolates (`degree = 0`): **0**
+- Authors with `weightedDegree > degree`: **2528**
 
 Top leaders by metric:
 
-- Degree: Michael Daniele (**131**)
-- Weighted Degree: David Jordan (**433**)
-- Betweenness: Edgar Lobaton (**173769.0632**)
-- Eigenvector: Cranos Williams (**0.247258**)
+- Degree: `Jones, Jacob` (**697**)
+- Weighted Degree: `Jones, Jacob` (**1278**)
+- Betweenness: `Jones, Jacob` (**5630924.6209620135**)
+- Closeness: `Theis, Thomas` (**1.0**)
+- Eigenvector: `Huseth, Anders` (**0.0817338764486999**)
 
 Important interpretation note:
 
@@ -247,6 +222,8 @@ CALL gds.louvain.write('co_author_with', {
 ```
 
 ### E) Export results
+
+The `data/centrality.csv` export can be produced by writing node properties after computing the metrics or by exporting node results from Neo4j.
 
 This repository can export the results directly with the Python script:
 

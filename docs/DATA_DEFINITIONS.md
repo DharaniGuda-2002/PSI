@@ -4,13 +4,13 @@ This document describes the publication datasets used in this repository and the
 
 ## Files
 
-- `Papers.csv`: original raw publication export.
-- `papers_filtered.csv`: cleaned dataset produced by `pre_processing.ipynb`.
-- `pre_processing.ipynb`: notebook that contains the current transformation logic.
+- `data/Papers.csv`: original raw publication export.
+- `data/papers_filtered.csv`: cleaned dataset produced by `notebooks/pre_processing.ipynb`.
+- `notebooks/pre_processing.ipynb`: notebook that contains the current transformation logic.
 
 ## Current Dataset Summary
 
-### Raw Input: `Papers.csv`
+### Raw Input: `data/Papers.csv`
 
 - Rows: **3221**
 - Columns: **10**
@@ -28,11 +28,12 @@ Columns:
 - `topics`
 - `abstract`
 
-### Processed Output: `papers_filtered.csv`
+### Processed Output: `data/papers_filtered.csv`
 
-- Rows: **2732**
+- Rows: **2743**
 - Columns: **8**
-- Unique `nc_authors`: **1615**
+- Unique `nc_authors`: **1512**
+- Unique `unity_ids`: **1502**
 
 Columns:
 
@@ -77,10 +78,10 @@ Columns:
 
 The preprocessing notebook currently:
 
-- reads `Papers.csv`,
+- reads `data/Papers.csv`,
 - drops unused columns such as `Unnamed: 0`, `PMID`, `url`, and `abstract`,
 - removes rows with missing values needed for downstream processing,
 - keeps only papers with `year` from **2016** through **2025**,
 - parses NC State entries into author names and Unity IDs,
 - performs quality checks on parsed NC State information,
-- and writes the cleaned output to `papers_filtered.csv`.
+- and writes the cleaned output to `data/papers_filtered.csv`.

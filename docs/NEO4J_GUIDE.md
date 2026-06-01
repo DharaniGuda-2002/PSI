@@ -6,12 +6,12 @@ This document explains how the processed PSI publication data is loaded into Neo
 
 The Neo4j loader uses:
 
-- `papers_filtered.csv`
-- `neo4j_connector.py`
+- `data/papers_filtered.csv`
+- `scripts/neo4j_connector.py`
 
 ## Current Scope
 
-The current graph build loads the full publication graph from `papers_filtered.csv`.
+The current graph build loads the full publication graph from `data/papers_filtered.csv`.
 
 That means:
 
@@ -35,7 +35,7 @@ export CLEAR_DB_ON_START='true'
 ## How To Run
 
 ```bash
-python3 neo4j_connector.py
+python3 scripts/neo4j_connector.py
 ```
 
 ## Graph Model
@@ -73,7 +73,7 @@ python3 neo4j_connector.py
 
 The current script:
 
-1. reads `papers_filtered.csv`,
+1. reads `data/papers_filtered.csv`,
 2. parses all authors from `authors`,
 3. canonicalizes author names against `nc_authors` so NC State authors are preserved even when publication strings use initials or name variants,
 4. creates `Author`, `Paper`, and `Topic` nodes,
@@ -89,9 +89,9 @@ The current script:
 
 ## Output For Metrics
 
-The co-authorship network loaded through this workflow is the basis for the metrics exported to `centrality.csv`.
+The co-authorship network loaded through this workflow is the basis for the metrics exported to `data/centrality.csv`.
 
-For GDS projection patterns, including the mixed co-author plus topic projection, see [docs/GDS_PROJECTIONS.md](/Users/dharani/Desktop/PSI/docs/GDS_PROJECTIONS.md).
+For GDS projection patterns, including the mixed co-author plus topic projection, see [docs/GDS_PROJECTIONS.md](GDS_PROJECTIONS.md).
 
 ## Node Coloring In Neo4j
 
